@@ -2,8 +2,8 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div className="container mx-auto">
-      <div className=" bg-light-black py-2">
+    <div className="bg-light-black py-2">
+      <div className="container mx-auto">
         <div className="flex gap-4 justify-end">
           <p>
             <a href="" className="text-white">
@@ -27,6 +27,7 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
+      <div></div>
     </div>
   );
 };
