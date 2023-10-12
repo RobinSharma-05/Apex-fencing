@@ -1,12 +1,14 @@
-import './App.css'
-import Your_Fence from './Component/Your_Fence'
+import React from 'react';
+import './App.css';
+import YourFence from './Component/YourFence';
 
-function App() {
+
+
+const App =() => {
   return (
     <>
-      <Your_Fence />
+      <YourFence/>
     </>
-  )
-}
-
-export default App
+  );
+};
+export default App;
