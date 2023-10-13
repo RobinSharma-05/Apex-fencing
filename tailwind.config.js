@@ -32,6 +32,11 @@ export default {
       colors: {
         "light-brown": "#EEE4DB",
         "light-black": "#252525",
+        "light-grey": "#A8A9AD",
+        "light-grey2": "#e5e5e6",
+        "light-blue": "#2A2B2A",
+        "light-green": "#5A623D",
+        orange: "#AA6627",
       },
       backgroundImage: {
         "hero-section-img": "url('assets/images/png/herosection_bg_img.png')",
