@@ -2,6 +2,19 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontSize: {
+      xxs: "12px",
+      xm: "14px",
+      xs: "16px",
+      md: "18px",
+      lg: "20px",
+      xl: "22px",
+      "2xl": "24px",
+      "3xl": "30px",
+      "4xl": "34px",
+      "5xl": "48px",
+      "6xl": "74px",
+    },
     container: {
       padding: {
         DEFAULT: "1rem",
@@ -19,6 +32,7 @@ export default {
       colors: {
         "light-brown": "#EEE4DB",
         "light-black": "#252525",
+        "dark-black": "#2a2b2a",
       },
     },
   },
