@@ -12,20 +12,22 @@ import showcase8 from "../assets/images/png/showcase8.png";
 import showcase9 from "../assets/images/png/showcase9.png";
 import showcase10 from "../assets/images/png/showcase10.png";
 import { Real_Instagram, Real_play_btn } from "./Icons";
+import { Link } from "react-router-dom";
 const ShowCase6 = () => {
     let [isOpen, setIsOpen] = useState(false);
 
     function closeModal() {
-      setIsOpen(false);
+        setIsOpen(false);
     }
 
     function openModal() {
-      setIsOpen(true);
+        setIsOpen(true);
+        
     }
   return (
     <div>
       <div className="container mx-auto py-5 md:py-10">
-        <h2 className="font-Riviera text-5xl text-light-blue font-medium pb-5">
+        <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
           Showcase Your Space
         </h2>
         <p className="font-Jakarta text-lg font-normal text-black max-w-[861px]">
@@ -266,7 +268,7 @@ const ShowCase6 = () => {
                   leaveFrom="opacity-100"
                   leaveTo="opacity-0"
                 >
-                  <div className="fixed inset-0 bg-black bg-opacity-25" />
+                  <div className="fixed inset-0 bg-orange bg-opacity-25" />
                 </Transition.Child>
 
                 <div className="fixed inset-0 overflow-y-auto">
@@ -280,22 +282,39 @@ const ShowCase6 = () => {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
                         <Dialog.Title
                           as="h3"
                           className="text-lg font-medium leading-6 text-gray-900"
                         >
-                          Payment successful
+                          {/* Watch Amzon */}
                         </Dialog.Title>
-                        <div className="mt-2">
-                          <p className="text-sm text-gray-500">
+                        <div
+                          onClick={closeModal}
+                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-1 right-1 cursor-pointer flex items-center justify-center"
+                        >
+                          <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
+                          <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
+                        </div>
+                        <div className="mt-2 ">
+                          <iframe
+                            width="100%"
+                            height="415"
+                            src="https://www.youtube.com/embed/yN9t3Myv97c"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+
+                          {/* <p className="text-sm text-gray-500">
                             Your payment has been successfully submitted. We’ve
                             sent you an email with all of the details of your
                             order.
-                          </p>
+                          </p> */}
                         </div>
 
-                        <div className="mt-4">
+                        {/* <div className="mt-4">
                           <button
                             type="button"
                             className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
@@ -303,7 +322,7 @@ const ShowCase6 = () => {
                           >
                             Got it, thanks!
                           </button>
-                        </div>
+                        </div> */}
                       </Dialog.Panel>
                     </Transition.Child>
                   </div>
@@ -395,9 +414,84 @@ const ShowCase6 = () => {
             <div className="absolute right-2 top-2">
               <Real_Instagram />
             </div>
-            <div className="absolute bottom-[50%] left-[50%] ps-1 translate-y-[-50%] translate-x-[-50%] bg-light-green rounded-[50%] flex items-center justify-center w-[80px] h-[80px] cursor-pointer">
+            <div
+              onClick={openModal}
+              className="absolute bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green rounded-[50%] flex items-center justify-center w-[80px] h-[80px] cursor-pointer"
+            >
               <Real_play_btn />
             </div>
+            <Transition appear show={isOpen} as={Fragment}>
+              <Dialog as="div" className="relative z-10" onClose={closeModal}>
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0"
+                  enterTo="opacity-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100"
+                  leaveTo="opacity-0"
+                >
+                  <div className="fixed inset-0 bg-orange bg-opacity-25" />
+                </Transition.Child>
+
+                <div className="fixed inset-0 overflow-y-auto">
+                  <div className="flex min-h-full items-center justify-center p-4 text-center">
+                    <Transition.Child
+                      as={Fragment}
+                      enter="ease-out duration-300"
+                      enterFrom="opacity-0 scale-95"
+                      enterTo="opacity-100 scale-100"
+                      leave="ease-in duration-200"
+                      leaveFrom="opacity-100 scale-100"
+                      leaveTo="opacity-0 scale-95"
+                    >
+                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                        <Dialog.Title
+                          as="h3"
+                          className="text-lg font-medium leading-6 text-gray-900"
+                        >
+                          {/* Watch Amzon */}
+                        </Dialog.Title>
+                        <div
+                          onClick={closeModal}
+                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-1 right-1 cursor-pointer flex items-center justify-center"
+                        >
+                          <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
+                          <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
+                        </div>
+                        <div className="mt-2 ">
+                          <iframe
+                            width="100%"
+                            height="415"
+                            src="https://www.youtube.com/embed/yN9t3Myv97c"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+
+                          {/* <p className="text-sm text-gray-500">
+                            Your payment has been successfully submitted. We’ve
+                            sent you an email with all of the details of your
+                            order.
+                          </p> */}
+                        </div>
+
+                        {/* <div className="mt-4">
+                          <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={closeModal}
+                          >
+                            Got it, thanks!
+                          </button>
+                        </div> */}
+                      </Dialog.Panel>
+                    </Transition.Child>
+                  </div>
+                </div>
+              </Dialog>
+            </Transition>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -408,6 +502,17 @@ const ShowCase6 = () => {
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #americanseries
               </h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p className="font-Jakarta text-xs font-normal text-black max-w-[499px] text-center mx-auto pb-[20px] sm:pb-[40px] ">
+            Ready for more? Click below to explore a curated collection of
+            awe-inspiring transformations featuring our products.
+          </p>
+          <div className="mx-auto text-center">
+            <div className="font-Jakarta font-medium hover:text-light-black transition-all hover:bg-light-brown duration-200 ease-in-out border-[1px] border-solid border-[transparent] hover:border-light-black text-white text-xs bg-light-black py-[19px] px-[42px] inline-block ">
+              Get Inspired
             </div>
           </div>
         </div>
