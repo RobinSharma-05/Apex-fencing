@@ -102,6 +102,25 @@
 .real_arrow:hover svg path {
   stroke: black;
 }
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .d_grid {
   display: grid;
   grid-template-rows: auto auto auto;
