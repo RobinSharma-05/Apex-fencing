@@ -36,6 +36,8 @@ export default {
         "light-grey2": "#e5e5e6",
         "light-blue": "#2A2B2A",
         "light-green": "#5A623D",
+        "dark-black": "#2a2b2a",
+        "dark-purple": "#695978",
         orange: "#AA6627",
       },
       backgroundImage: {

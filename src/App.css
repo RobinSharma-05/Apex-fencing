@@ -7,6 +7,18 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+
+@media (max-width: 576px) {
+  .content-details {
+    transform: translateX(18%) !important;
+  }
+  .content-details_2 {
+    transform: translateX(35%) !important;
+  }
+  .content-details_3 {
+    transform: translateX(26%) !important;
+  }
+}
 @media (max-width: 1280px) {
   label[for="menuIcon"] {
     cursor: pointer;
@@ -44,18 +56,6 @@
     left: 0;
   }
 }
-.btn_1 {
-  padding: 20px 30px 19px 30px;
-  background: #eee4db;
-  color: #32281f;
-  border: 2px solid #eee4db;
-}
-.btn_2 {
-  padding: 20px 30px 19px 30px;
-  background: transparent;
-  color: #eee4db;
-  border: 2px solid #eee4db;
-}
 .content {
   position: relative;
   width: 90%;
@@ -90,7 +90,6 @@
   padding: 0 0% 0 0%;
   position: relative;
 }
-
 .slider .slick-list::after {
   content: "";
   position: absolute;
@@ -232,4 +231,51 @@
     grid-row: 6/10;
     grid-column: 3/4;
   }
+}
+
+/* slider buttons css */
+.customButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next {
+  float: right;
+}
+
+.prev {
+  float: left;
+}
+/* ///////// */
+
+.hover-line {
+  position: relative;
+  transition: all 300ms linear;
+  color: white;
+}
+
+.hover-line:hover {
+  color: #eee4db;
+}
+
+.hover-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  width: 0;
+  height: 2.5px;
+  background-color: #eee4db;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.hover-line:hover::before {
+  width: 100%;
+  left: 0;
 }
