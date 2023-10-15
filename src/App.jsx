@@ -10,6 +10,7 @@ import ShowCase6 from "./components/ShowCase6";
 const App = () => {
   return (
     <div >
+      
       <HeroSection />
       <Real5 />
       <ShowCase6 />

@@ -31,7 +31,7 @@ const Real5 = () => {
     ],
   };
   return (
-    <div className="bg-light-grey2 pt-[50px] md:py-[50px] overflow-x-hidden">
+    <div className="bg-light-grey2 py-[30px]  md:py-[100px] lg:py-[141px] overflow-x-hidden">
       <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
           <h2 className="font-Jakarta text-[40px] md:text-5xl font-medium text-light-blue">
@@ -40,13 +40,13 @@ const Real5 = () => {
           <div className="flex gap-5">
             <div
               onClick={() => slider?.current?.slickPrev()}
-              className="w-[50px] h-[50px] bg-[#d3d3d5] rounded-[50%] border-[1px] border-[transparent] hover:border-[black] border-solid flex justify-center items-center cursor-pointer real_arrow ease-in-out duration-200 hover:bg-light-brown"
+              className="w-[50px] h-[50px] bg-[#d3d3d5] rounded-[50%] border-[1px] border-[transparent] hover:border-[black] border-solid flex justify-center items-center cursor-pointer  ease-in-out duration-200 hover:bg-light-black"
             >
               <Real_left_arrow />
             </div>
             <div
               onClick={() => slider?.current?.slickNext()}
-              className="w-[50px] h-[50px] bg-light-black rounded-[50%] border-[1px] border-[transparent] hover:border-[black] border-solid flex justify-center items-center cursor-pointer real_arrow hover:bg-light-brown"
+              className="w-[50px] h-[50px] bg-[#d3d3d5] rounded-[50%] border-[1px] border-[transparent] hover:border-[black] border-solid flex justify-center items-center cursor-pointer  hover:bg-light-black"
             >
               <Real_right_arrow />
             </div>
@@ -56,17 +56,17 @@ const Real5 = () => {
         <Slider
           ref={slider}
           {...settings}
-          className="md:py-10 py-5 md:my-10 slider"
+          className="md:pt-[62px] pt-5 sm:pb-5 md:pb-0  slider"
         >
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-6 ">
-              <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
+            <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-6 ">
+              <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "The quality of these railings{" "}
                 <span className="text-orange">exceeded </span>all my
                 expectations. Now, my outdoor space feels like a luxurious
                 retreat. Highly recommend!"
               </p>
-              <div className="flex items-center gap-8 pt-[30px] md:pt-[86px]">
+              <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
                   <img className="w-full" src={emily} alt="emily" />
                 </div>
@@ -82,14 +82,14 @@ const Real5 = () => {
             </div>
           </div>
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
-              <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
+            <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
+              <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "Working with these products has
                 <span className="text-orange"> elevated </span> the quality of
                 my projects. My clients are consistently impressed, making my
                 job so much easier."
               </p>
-              <div className="flex items-center gap-8 sm:pt-[30px] md:pt-[86px]">
+              <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
                   <img className="w-full" src={Jack} alt="Jack" />
                 </div>
@@ -105,14 +105,14 @@ const Real5 = () => {
             </div>
           </div>{" "}
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
-              <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[459px]">
+            <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
+              <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[459px]">
                 "Outstanding products matched by
                 <span className="text-orange"> excellent </span>customer
                 service. As a supplier, it's a relief to work with a company
                 that sets high standards."
               </p>
-              <div className="flex items-center gap-8 sm:pt-[30px] md:pt-[86px]">
+              <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
                   <img className="w-full" src={Jack2} alt="Jack2" />
                 </div>

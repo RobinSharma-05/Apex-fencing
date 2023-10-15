@@ -26,7 +26,7 @@ const ShowCase6 = () => {
     }
   return (
     <div>
-      <div className="container mx-auto py-5 md:py-10">
+      <div className="container mx-auto pt-[50px] md:pt-[100px] lg:pt-[145px]">
         <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
           Showcase Your Space
         </h2>
@@ -34,154 +34,11 @@ const ShowCase6 = () => {
           Discover how homeowners and builders alike are transforming spaces
           with our products. Get inspired for your next project.
         </p>
-        {/* <div className="grid grid-cols-3 py-5 md:py-10 gap-5 w-full">
-          <div className="relative row-start-1 row-end-4 col-start-1 col-end-2 w-full  h-full">
-            <img className="w-full h-full" src={showcase1} alt="showcase1" />
-            <div className="flex gap-3 items-center absolute bottom-2 lg:bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-4 row-end-6 col-start-1 col-end-2 w-full  h-full">
-            <img className="w-full h-full" src={showcase2} alt="showcase2" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-6 row-end-10 col-start-1 col-end-2 w-full h-full ">
-            <img className="w-full h-full" src={showcase3} alt="showcase3" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-1 row-end-3 col-start-2 col-end-3 w-full  h-full">
-            <img className="w-full h-full" src={showcase4} alt="showcase4" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-3 row-end-5 col-start-2 col-end-3 w-full  h-full">
-            <img className="w-full h-full" src={showcase5} alt="showcase5" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-6 row-end-8 col-start-2 col-end-3 w-full  h-full">
-            <img className="w-full h-full" src={showcase6} alt="showcase6" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-8 row-end-10 col-start-2 col-end-3 w-full h-full ">
-            <img className="w-full h-full" src={showcase7} alt="showcase7" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-1 row-end-2 col-start-3 col-end-4 w-full  h-full">
-            <img className="w-full h-full" src={showcase8} alt="showcase8" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-2 row-end-5 col-start-3 col-end-4 w-full  h-full">
-            <img className="w-full h-full" src={showcase9} alt="showcase9" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-          <div className="relative row-start-5 row-end-10 col-start-3 col-end-4 w-full h-full ">
-            <img className="w-full h-full" src={showcase10} alt="showcase10" />
-            <div className="flex gap-3 items-center absolute bottom-7 left-5 w-full">
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #railing
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #horizontal cable
-              </h2>
-              <h2 className="font-Jakarta text-white text-[14px] font-medium ">
-                #americanseries
-              </h2>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="d_grid w-100 h-full py-5 md:py-10">
-          <div className="grid_item1 relative overflow-hidden">
+        <div className="d_grid w-100 h-full pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
+          <div className="grid_item1 relative overflow-hidden grid_hover ">
             <img className=" w-full h-full" src={showcase1} alt="showcase1" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -195,10 +52,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item2 relative overflow-hidden">
+          <div className="grid_item2 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase2} alt="showcase2" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -212,10 +69,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item3 relative overflow-hidden">
+          <div className="grid_item3 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase3} alt="showcase3" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -229,10 +86,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item4 relative overflow-hidden">
+          <div className="grid_item4 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase4} alt="showcase4" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -246,10 +103,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item5 relative overflow-hidden">
+          <div className="grid_item5 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase5} alt="showcase5" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div
               onClick={openModal}
@@ -341,10 +198,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item6 relative overflow-hidden">
+          <div className="grid_item6 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase6} alt="showcase6" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -358,10 +215,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item7 relative overflow-hidden">
+          <div className="grid_item7 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase7} alt="showcase7" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -375,10 +232,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item8 relative overflow-hidden">
+          <div className="grid_item8 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase8} alt="showcase8" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -392,10 +249,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item9 relative overflow-hidden">
+          <div className="grid_item9 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase9} alt="showcase9" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -409,10 +266,10 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item10 relative overflow-hidden">
+          <div className="grid_item10 relative overflow-hidden grid_hover">
             <img className=" w-full h-full" src={showcase10} alt="showcase10" />
             <div className="absolute right-2 top-2">
-              <Real_Instagram />
+              <a href="https://www.instagram.com/" target="blank"><Real_Instagram /></a>
             </div>
             <div
               onClick={openModal}
@@ -505,7 +362,7 @@ const ShowCase6 = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="pb-[20px] sm:pb-[50px] md:pb-[100px] lg:pb-[114px] pt-[20px] sm:pt-[40px] md:pt-[0px]">
           <p className="font-Jakarta text-xs font-normal text-black max-w-[499px] text-center mx-auto pb-[20px] sm:pb-[40px] ">
             Ready for more? Click below to explore a curated collection of
             awe-inspiring transformations featuring our products.

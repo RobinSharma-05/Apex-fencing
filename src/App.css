@@ -45,6 +45,13 @@
   height: 100%;
   object-fit: cover;
 }
+.grid_hover img{
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.grid_hover:hover img{
+transform: scale(1.1);
+}
 .d_grid{
   display: grid;
   grid-template-rows: auto auto auto;
