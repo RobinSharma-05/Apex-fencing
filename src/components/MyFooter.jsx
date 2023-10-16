@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/images/webp/logo.webp";
+import logo from "../assets/images/png/logo.png";
 import nadra from "../assets/images/webp/nadra.webp";
 import superior from "../assets/images/webp/superior.webp";
 import {
@@ -15,26 +15,36 @@ const MyFooter = () => {
     <div className="bg-light-brown" id="section_7">
       <div className="container mx-auto mt-24">
         <div className="md:flex items-center justify-between">
-          <div className="flex justify-center">
-            <img className="pt-24" src={logo} alt="logo" />
+          <div className="flex sm:justify-start justify-center">
+            <img className="pt-24 w-1/3 sm:w-1/4" src={logo} alt="logo" />
           </div>
 
           <div className="flex justify-center">
             <div className="flex items-center gap-6 md:mt-24 mt-16">
               <div className="hover:translate-y-[-8px] duration-300">
-                <Facebookicon />
+                <a href="https://www.facebook.com/" target="blank">
+                  <Facebookicon />
+                </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <Instagramicon />
+                <a href="https://www.instagram.com/" target="blank">
+                  <Instagramicon />
+                </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <Patrolicon />
+                <a href="https://www.twitter.com/" target="blank">
+                  <Patrolicon />
+                </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <Tiktokicon />
+                <a href="https://www.telegram.com/" target="blank">
+                  <Tiktokicon />
+                </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <Youtubeicon />
+                <a href="https://www.youtube.com/" target="blank">
+                  <Youtubeicon />
+                </a>
               </div>
             </div>
           </div>

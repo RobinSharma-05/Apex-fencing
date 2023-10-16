@@ -18,7 +18,7 @@ import MyPreloader from "./components/MyPreloader";
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
+    <>
       <MyPreloader />
       <HeroSection />
       <Products />
@@ -30,7 +30,7 @@ const App = () => {
       <YourFence />
       <Blog />
       <MyFooter />
-    </div>
+    </>
   );
 };
 

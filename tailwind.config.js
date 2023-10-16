@@ -21,7 +21,7 @@ export default {
         sm: "2rem",
         lg: "4rem",
         xl: "20px",
-        "2xl": "50px",
+        "2xl": "130px",
       },
     },
     fontFamily: {

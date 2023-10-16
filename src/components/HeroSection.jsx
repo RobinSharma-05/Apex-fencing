@@ -1,8 +1,22 @@
 import React, { useState } from "react";
 import { Logo, Search_icon } from "./Icons";
 import logo from "../assets/images/png/logoo.png";
+import { Icon } from "react-icons-kit";
+import { menu } from "react-icons-kit/feather/menu";
+import { x } from "react-icons-kit/feather/x";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
+  const [nav, setNav] = useState(true);
+
+  function shownav() {
+    setNav(false);
+    document.body.classList.add("overflow-hidden");
+  }
+  function hidenav() {
+    setNav(true);
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <div>
       <div className="bg-light-black py-2">
@@ -51,17 +65,32 @@ const HeroSection = () => {
         <div className="container mx-auto">
           <div className="py-5">
             <div className="flex items-center justify-between">
-              <div>
-                <img className="w-1/4 cursor-pointer" src={logo} alt="" />
+              <div className="w-10/12 sm:w-1/3">
+                <img
+                  className="sm:w-1/2 xl:w-1/3 w-1/3 cursor-pointer"
+                  src={logo}
+                  alt=""
+                />
               </div>
-              <label for="menuIcon" className="z-50">
+              <label htmlFor="menuIcon" className="z-50">
                 <span></span>
                 <span></span>
                 <span></span>
               </label>
               <input type="checkbox" id="menuIcon" hidden className="d-none" />
-              <ul className="flex items-center sm-screen ps-0">
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+              <ul
+                className={
+                  nav
+                    ? "flex nav_bar mb-0 ps-0 items-center"
+                    : "ps-0 flex nav_bar items-center show mb-0 gap-4"
+                }
+              >
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_2"
                     className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
@@ -69,7 +98,12 @@ const HeroSection = () => {
                     Railing
                   </a>
                 </li>
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_3"
                     className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
@@ -77,7 +111,12 @@ const HeroSection = () => {
                     Fencing
                   </a>
                 </li>
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_4"
                     className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
@@ -85,7 +124,12 @@ const HeroSection = () => {
                     Lighting
                   </a>
                 </li>
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_5"
                     className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
@@ -93,15 +137,25 @@ const HeroSection = () => {
                     Inspiration
                   </a>
                 </li>
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_6"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                    className="hover-line whitespace-nowrap font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
                   >
                     Why Acme
                   </a>
                 </li>
-                <li className="xl:me-[30px] mb-4 xl:mb-0">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className="xl:me-[30px] mb-4 xl:mb-0"
+                >
                   <a
                     href="#section_7"
                     className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
@@ -109,7 +163,12 @@ const HeroSection = () => {
                     Resources
                   </a>
                 </li>
-                <li className="">
+                <li
+                  onClick={() => {
+                    setNav(true);
+                  }}
+                  className=""
+                >
                   <a
                     href="#"
                     className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs bg-[#EEE4DB] py-5 px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
@@ -118,6 +177,17 @@ const HeroSection = () => {
                   </a>
                 </li>
               </ul>
+              <div
+                className="position-relative z-3 xl:hidden cross_btn z_100 "
+                onClick={nav ? shownav : hidenav}
+              >
+                {" "}
+                {nav ? (
+                  <Icon icon={menu} size={50} className="icons_color" />
+                ) : (
+                  <Icon icon={x} size={50} className="icons_color2" />
+                )}
+              </div>
             </div>
           </div>
           <h1 className="text-[35px] sm:text-[50px] md:text-6xl pt-[20px] sm:pt-[40px]  md:mt-[171px] text-white max-w-2xl md:leading-[110%] font-Jakarta font-bold">
@@ -127,7 +197,7 @@ const HeroSection = () => {
             American-crafted railing, fencing and lighting for retreat-style
             living.
           </p>
-          <div className="md:flex gap-5 pb-[40px] md:pb-44">
+          <div className="md:flex gap-8 pb-[40px] md:pb-44">
             <p className="mb-5 md:mb-0">
               <a
                 href="#"
