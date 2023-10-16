@@ -368,7 +368,7 @@ const ShowCase6 = () => {
             awe-inspiring transformations featuring our products.
           </p>
           <div className="mx-auto text-center">
-            <div className="font-Jakarta font-medium hover:text-light-black transition-all hover:bg-light-brown duration-200 ease-in-out border-[1px] border-solid border-[transparent] hover:border-light-black text-white text-xs bg-light-black py-[19px] px-[42px] inline-block ">
+            <div className="font-Jakarta font-medium hover:text-light-black transition-all hover:bg-light-brown duration-500 ease-in-out border-[1px] border-solid border-[transparent] hover:border-light-black text-white text-xs bg-light-black py-[19px] px-[42px] inline-block ">
               Get Inspired
             </div>
           </div>
