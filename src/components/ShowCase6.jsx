@@ -1,31 +1,30 @@
 import React from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import showcase1 from "../assets/images/png/showcase1.png";
-import showcase2 from "../assets/images/png/showcase2.png";
-import showcase3 from "../assets/images/png/showcase3.png";
-import showcase4 from "../assets/images/png/showcase4.png";
-import showcase5 from "../assets/images/png/showcase5.png";
-import showcase6 from "../assets/images/png/showcase6.png";
-import showcase7 from "../assets/images/png/showcase7.png";
-import showcase8 from "../assets/images/png/showcase8.png";
-import showcase9 from "../assets/images/png/showcase9.png";
-import showcase10 from "../assets/images/png/showcase10.png";
+import showcase1 from "../assets/images/webp/showcase1.webp";
+import showcase2 from "../assets/images/webp/showcase2.webp";
+import showcase3 from "../assets/images/webp/showcase3.webp";
+import showcase4 from "../assets/images/webp/showcase4.webp";
+import showcase5 from "../assets/images/webp/showcase5.webp";
+import showcase6 from "../assets/images/webp/showcase6.webp";
+import showcase7 from "../assets/images/webp/showcase7.webp";
+import showcase8 from "../assets/images/webp/showcase8.webp";
+import showcase9 from "../assets/images/webp/showcase9.webp";
+import showcase10 from "../assets/images/webp/showcase10.webp";
 import { Real_Instagram, Real_play_btn } from "./Icons";
 import { Link } from "react-router-dom";
 const ShowCase6 = () => {
-    let [isOpen, setIsOpen] = useState(false);
+  let [isOpen, setIsOpen] = useState(false);
 
-    function closeModal() {
-        setIsOpen(false);
-    }
+  function closeModal() {
+    setIsOpen(false);
+  }
 
-    function openModal() {
-        setIsOpen(true);
-        
-    }
+  function openModal() {
+    setIsOpen(true);
+  }
   return (
-    <div>
+    <div id="section_6">
       <div className="container mx-auto py-5 md:py-10">
         <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
           Showcase Your Space

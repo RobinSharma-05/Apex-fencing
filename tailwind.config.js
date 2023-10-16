@@ -41,7 +41,7 @@ export default {
         orange: "#AA6627",
       },
       backgroundImage: {
-        "hero-section-img": "url('assets/images/png/herosection_bg_img.png')",
+        "hero-section-img": "url('assets/images/webp/herosection_bg_img.webp')",
       },
     },
   },

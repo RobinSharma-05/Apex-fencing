@@ -1,9 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
 import { Real_left_arrow, Real_right_arrow } from "./Icons";
-import emily from "../assets/images/png/Real_Emily.png";
-import Jack from "../assets/images/png/Real_Jack.png";
-import Jack2 from "../assets/images/png/Real_Jack2.png";
+import emily from "../assets/images/webp/Real_Emily.webp";
+import Jack from "../assets/images/webp/Real_Jack.webp";
+import Jack2 from "../assets/images/webp/Real_Jack2.webp";
 const Real5 = () => {
   const slider = React.useRef(null);
   var settings = {
@@ -31,7 +31,10 @@ const Real5 = () => {
     ],
   };
   return (
-    <div className="bg-light-grey2 pt-[50px] md:py-[50px] overflow-x-hidden">
+    <div
+      className="bg-light-grey2 pt-[50px] md:py-[50px] overflow-x-hidden"
+      id="section_5"
+    >
       <div className="container mx-auto ">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
           <h2 className="font-Jakarta text-[40px] md:text-5xl font-medium text-light-blue">

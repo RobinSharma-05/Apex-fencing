@@ -58,7 +58,7 @@
 }
 .content {
   position: relative;
-  width: 90%;
+  width: 100%;
   max-width: 400px;
   margin: auto;
   overflow: hidden;
@@ -67,14 +67,15 @@
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 0;
-  top: 0;
+  top: 60%;
   bottom: 0;
   right: 0;
   opacity: 0;
+  filter: blur(11px);
   transition: all 0.4s ease-in-out 0s;
 }
 .content:hover .content-overlay {
-  opacity: 0.4;
+  opacity: 0.8;
 }
 .content-details {
   transform: translateX(10%);
@@ -297,4 +298,56 @@
 .hover-line:hover::before {
   width: 100%;
   left: 0;
+}
+
+.hover_line2 {
+  transition: all 300ms linear;
+}
+
+.hover_line2:hover {
+  color: red;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow: hidden;
+}
+.animation_preloader {
+  animation: loder 4s linear;
+}
+
+@keyframes loder {
+  0% {
+    transform: scale(0.8);
+  }
+
+  75% {
+    transform: scale(1.5);
+  }
+}
+.perloaderback {
+  background-color: #000000;
+}
+.z_index_2000 {
+  z-index: 2000 !important;
+}
+
+.z_index_100 {
+  z-index: 100 !important;
+}
+
+.img_hover img {
+  transition: all 300ms linear;
+}
+.img_hover .three_boxarrow {
+  transition: all 300ms linear;
+}
+.img_hover:hover .three_boxarrow {
+  transform: translateX(5px);
+}
+.img_hover:hover img {
+  scale: 1.1;
 }
