@@ -15,15 +15,15 @@ export default {
       "5xl": "48px",
       "6xl": "74px",
     },
-    container: {
-      padding: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        lg: "4rem",
-        xl: "12px",
-        "2xl": "130px",
-      },
-    },
+    // container: {
+    //   padding: {
+    //     DEFAULT: "1rem",
+    //     sm: "2rem",
+    //     lg: "4rem",
+    //     xl: "12px",
+    //     "2xl": "130px",
+    //   },
+    // },
     fontFamily: {
       Riviera: ["Riviera Nights Trial", "sans-serif"],
       Jakarta: ["Plus Jakarta Sans", "sans-serif"],

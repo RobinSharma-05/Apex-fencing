@@ -33,7 +33,7 @@ const YourFence = () => {
           alt="garden"
         />
         <img className="xl:hidden w-full" src={garden} alt="garden" />
-        <div className="container mx-auto flex justify-end">
+        <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 flex justify-end">
           <div className="w-full xl:w-[50%] pb-12 md:pb-[95px] pt-10 md:pt-[89px] lg:pe-[11px] xl:ps-[190px]">
             <div className="flex justify-center xl:justify-start text-center xl:text-start">
               <h3 className="text-white font-Jakarta font-medium text-[34px]">

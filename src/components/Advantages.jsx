@@ -4,7 +4,7 @@ import { Black_icon_1, Black_icon_2, Black_icon_3 } from "./Icons";
 const Advantages = () => {
   return (
     <div className="bg-light-brown" id="section_3">
-      <div className="container mx-auto">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <h2 className="text-[37px] md:text-5xl md:pt-[130px] md:pb-[60px] pt-12 pb-10 font-medium font-Jakarta">
           Advantages That Make a Difference
         </h2>

@@ -19,14 +19,14 @@ const Header = () => {
     }
   return (
     <>
-      <div className="container mx-auto">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="py-5 sm:py-10">
           <div className="flex items-center justify-between">
             <div className="w-10/12 sm:w-1/3">
               <img
                 className="w-[100px] sm:w-[157px] cursor-pointer"
                 src={logo}
-                alt=""
+                alt="logo"
               />
             </div>
             <label htmlFor="menuIcon" className="z-50">

@@ -8,7 +8,7 @@ import lighting from "../assets/images/webp/lighting.webp";
 const Products = () => {
   return (
     <div id="section_2">
-      <div className="container mx-auto pb-[40px] md:pb-36">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pb-[40px] md:pb-36">
         <h2 className="text-5xl mb-[30px] md:mb-[74px] mt-[30px] md:mt-[120px] font-Jakarta font-medium">
           Our Products
         </h2>

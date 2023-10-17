@@ -9,11 +9,10 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 
 const HeroSection = () => {
-  
   return (
     <div>
       <div className="bg-light-black py-2">
-        <div className="container mx-auto">
+        <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
             <p>
               <a
@@ -54,25 +53,25 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="bg-hero-section-img min-h-screen bg-no-repeat bg-center bg-cover">
+      <div className="bg-hero-section-img  hero_section bg-no-repeat bg-center bg-cover">
         <div>
           <Header />
         </div>
-        <div className="container mx-auto">
+        <div className="container xl:w-[1180px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto hero-content flex items-start justify-center flex-col">
           <div className="flex flex-col justify-center ">
-            <h1 className="text-[35px] sm:text-[50px] md:text-6xl  text-white max-w-2xl md:leading-[110%] font-Jakarta font-bold">
-              <span className="mb-0 font-light">Open Up to</span> Experience
+            <h1 className="text-[37px] sm:text-[61px]  lg:text-6xl  text-white max-w-2xl leading-[160%] lg:leading-[120%] font-Jakarta font-bold">
+              <span className="mb-0 font-light ">Open Up to</span> Experience
               More
             </h1>
-            <p className="font-Jakarta font-medium py-[20px] md:mt-8 md:mb-[51px] text-xl text-white max-w-[400px]">
+            <p className="font-Jakarta font-medium py-[20px] md:mt-8 mb-[51px] text-[16px] sm:text-md md:text-xl leading-[160%] md:leading-[140%] text-white max-w-[400px]">
               American-crafted railing, fencing and lighting for retreat-style
               living.
             </p>
-            <div className="md:flex gap-8 pb-[40px] md:pb-44">
+            <div className="flex flex-row gap-4 sm:gap-8  ">
               <p className="mb-5 md:mb-0">
                 <a
                   href="#"
-                  className="font-Jakarta font-medium text-xm md:text-xs bg-[#EEE4DB] py-5 px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500 inline-block"
+                  className="font-Jakarta font-medium text-xm md:text-xs bg-[#EEE4DB] py-5 px-4 sm:px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent]  hover:text-[#EEE4DB] duration-500 inline-block"
                 >
                   See Our Products
                 </a>
@@ -80,7 +79,7 @@ const HeroSection = () => {
               <p>
                 <a
                   href="#"
-                  className="font-Jakarta font-medium text-xm md:text-xs bg-[transparent] py-5 px-[30px] border-[1px] text-[#FFFFFF] hover:bg-[#EEE4DB] hover:text-[#32281F] duration-500 inline-block"
+                  className="font-Jakarta font-medium text-xm md:text-xs bg-[transparent] py-5 px-4 sm:px-[30px] border-[1px] text-[#FFFFFF] hover:bg-[#EEE4DB] hover:text-[#32281F] duration-500 inline-block"
                 >
                   Visualize Your Railing
                 </a>
