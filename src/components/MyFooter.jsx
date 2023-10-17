@@ -136,7 +136,7 @@ const MyFooter = () => {
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
                       <a href="" className="hover_line2">
-                        FAQ
+                        FAQs
                       </a>
                     </p>
                   </div>

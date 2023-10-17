@@ -27,7 +27,7 @@ const MyPreloader = () => {
             <img
               src={preloder_img}
               alt="preloder_img"
-              className="flex items-center justify-center animation_preloader w-[25%]"
+              className="flex items-center justify-center animation_preloader w-[15%]"
             />
           </div>
         </div>

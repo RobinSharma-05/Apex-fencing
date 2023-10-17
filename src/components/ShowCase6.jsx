@@ -124,7 +124,7 @@ const ShowCase6 = () => {
               <Real_play_btn />
             </div>
             <Transition appear show={isOpen} as={Fragment}>
-              <Dialog as="div" className="relative z-10" onClose={closeModal}>
+              <Dialog as="div" className="relative z-10 " onClose={closeModal}>
                 <Transition.Child
                   as={Fragment}
                   enter="ease-out duration-300"
@@ -134,11 +134,11 @@ const ShowCase6 = () => {
                   leaveFrom="opacity-100"
                   leaveTo="opacity-0"
                 >
-                  <div className="fixed inset-0 bg-orange bg-opacity-25" />
+                  <div className="fixed inset-0 bg-orange bg-opacity-25 " />
                 </Transition.Child>
 
                 <div className="fixed inset-0 overflow-y-auto">
-                  <div className="flex min-h-full items-center justify-center p-4 text-center">
+                  <div className="flex min-h-full items-center justify-center p-6 text-center ">
                     <Transition.Child
                       as={Fragment}
                       enter="ease-out duration-300"
@@ -148,7 +148,7 @@ const ShowCase6 = () => {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                      <Dialog.Panel className="w-full h-full min-h-[415px]  max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
                         <Dialog.Title
                           as="h3"
                           className="text-lg font-medium leading-6 text-gray-900"
@@ -157,7 +157,7 @@ const ShowCase6 = () => {
                         </Dialog.Title>
                         <div
                           onClick={closeModal}
-                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-1 right-1 cursor-pointer flex items-center justify-center"
+                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-[-4%] right-[-2%] cursor-pointer flex items-center justify-center"
                         >
                           <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
                           <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
@@ -165,6 +165,7 @@ const ShowCase6 = () => {
                         <div className="mt-2 ">
                           <iframe
                             width="100%"
+                            // max-width="500"
                             height="415"
                             src="https://www.youtube.com/embed/yN9t3Myv97c"
                             title="YouTube video player"
@@ -296,78 +297,18 @@ const ShowCase6 = () => {
             >
               <Real_play_btn />
             </div>
-            <Transition appear show={isOpen} as={Fragment}>
-              <Dialog as="div" className="relative z-10" onClose={closeModal}>
-                <Transition.Child
-                  as={Fragment}
-                  enter="ease-out duration-300"
-                  enterFrom="opacity-0"
-                  enterTo="opacity-100"
-                  leave="ease-in duration-200"
-                  leaveFrom="opacity-100"
-                  leaveTo="opacity-0"
-                >
-                  <div className="fixed inset-0 bg-orange bg-opacity-25" />
-                </Transition.Child>
+            <div appear show={isOpen} as={Fragment} className="modal ">
+              <iframe
+                width="100"
+                height="415"
+                src="https://www.youtube.com/embed/yN9t3Myv97c"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
 
-                <div className="fixed inset-0 overflow-y-auto">
-                  <div className="flex min-h-full items-center justify-center p-4 text-center">
-                    <Transition.Child
-                      as={Fragment}
-                      enter="ease-out duration-300"
-                      enterFrom="opacity-0 scale-95"
-                      enterTo="opacity-100 scale-100"
-                      leave="ease-in duration-200"
-                      leaveFrom="opacity-100 scale-100"
-                      leaveTo="opacity-0 scale-95"
-                    >
-                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
-                        <Dialog.Title
-                          as="h3"
-                          className="text-lg font-medium leading-6 text-gray-900"
-                        >
-                          {/* Watch Amzon */}
-                        </Dialog.Title>
-                        <div
-                          onClick={closeModal}
-                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-1 right-1 cursor-pointer flex items-center justify-center"
-                        >
-                          <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
-                          <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
-                        </div>
-                        <div className="mt-2 ">
-                          <iframe
-                            width="100%"
-                            height="415"
-                            src="https://www.youtube.com/embed/yN9t3Myv97c"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                          ></iframe>
-
-                          {/* <p className="text-sm text-gray-500">
-                            Your payment has been successfully submitted. We’ve
-                            sent you an email with all of the details of your
-                            order.
-                          </p> */}
-                        </div>
-
-                        {/* <div className="mt-4">
-                          <button
-                            type="button"
-                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                            onClick={closeModal}
-                          >
-                            Got it, thanks!
-                          </button>
-                        </div> */}
-                      </Dialog.Panel>
-                    </Transition.Child>
-                  </div>
-                </div>
-              </Dialog>
-            </Transition>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
