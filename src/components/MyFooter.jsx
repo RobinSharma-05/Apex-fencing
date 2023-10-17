@@ -13,7 +13,7 @@ import {
 const MyFooter = () => {
   return (
     <div className="bg-light-brown" id="section_7">
-      <div className="container mx-auto mt-24">
+      <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 mt-24">
         <div className="md:flex items-center justify-between">
           <div className="flex sm:justify-start justify-center">
             <img className="pt-24 w-1/3 sm:w-1/4" src={logo} alt="logo" />

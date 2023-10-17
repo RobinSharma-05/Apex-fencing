@@ -35,7 +35,7 @@ const Real5 = () => {
       className="bg-light-grey2 py-[30px]  md:py-[100px] lg:py-[141px] overflow-x-hidden"
       id="section_6"
     >
-      <div className="container mx-auto ">
+      <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
           <h2 className="font-Jakarta text-[40px] md:text-5xl font-medium text-light-blue">
             Real Experiences. Real People.

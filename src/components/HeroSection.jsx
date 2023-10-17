@@ -6,21 +6,13 @@ import { menu } from "react-icons-kit/feather/menu";
 import { x } from "react-icons-kit/feather/x";
 import { Link } from "react-router-dom";
 
-const HeroSection = () => {
-  const [nav, setNav] = useState(true);
+import Header from "./Header";
 
-  function shownav() {
-    setNav(false);
-    document.body.classList.add("overflow-hidden");
-  }
-  function hidenav() {
-    setNav(true);
-    document.body.classList.remove("overflow-hidden");
-  }
+const HeroSection = () => {
   return (
     <div>
       <div className="bg-light-black py-2">
-        <div className="container mx-auto">
+        <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
             <p>
               <a
@@ -61,149 +53,25 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="bg-hero-section-img bg-no-repeat bg-center bg-cover">
-        <div className="container mx-auto min-h-screen">
-          <div className="py-5">
-            <div className="flex items-center justify-between">
-              <div className="w-10/12 sm:w-1/3">
-                <img
-                  className="sm:w-1/2 xl:w-1/3 w-1/3 cursor-pointer"
-                  src={logo}
-                  alt=""
-                />
-              </div>
-              <label htmlFor="menuIcon" className="z-50">
-                <span></span>
-                <span></span>
-                <span></span>
-              </label>
-              <input type="checkbox" id="menuIcon" hidden className="d-none" />
-              <ul
-                className={
-                  nav
-                    ? "flex nav_bar mb-0 ps-0 items-center"
-                    : "ps-0 flex nav_bar items-center show mb-0 gap-4"
-                }
-              >
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_2"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Railing
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_3"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Fencing
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_4"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Lighting
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_5"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Inspiration
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_6"
-                    className="hover-line whitespace-nowrap font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Why Acme
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className="xl:me-[30px] mb-4 xl:mb-0"
-                >
-                  <a
-                    href="#section_7"
-                    className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
-                  >
-                    Resources
-                  </a>
-                </li>
-                <li
-                  onClick={() => {
-                    setNav(true);
-                  }}
-                  className=""
-                >
-                  <a
-                    href="#"
-                    className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs bg-[#EEE4DB] py-5 px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
-                  >
-                    Where to Buy
-                  </a>
-                </li>
-              </ul>
-              <div
-                className="position-relative z-3 xl:hidden cross_btn z_100 "
-                onClick={nav ? shownav : hidenav}
-              >
-                {" "}
-                {nav ? (
-                  <Icon icon={menu} size={50} className="icons_color" />
-                ) : (
-                  <Icon icon={x} size={50} className="icons_color2" />
-                )}
-              </div>
-            </div>
-          </div>
-          <div className="pt-36">
-            <h1 className="text-[35px] sm:text-[50px] md:text-6xl pt-[20px] sm:pt-[40px] text-white max-w-2xl md:leading-[110%] font-Jakarta font-bold">
+      <div className="bg-hero-section-img  hero_section bg-no-repeat bg-center bg-cover">
+        <div>
+          <Header />
+        </div>
+        <div className="container xl:w-[1180px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0 mx-auto hero-content flex items-start justify-center flex-col">
+          <div className="flex flex-col justify-center">
+            <h1 className="text-[37px] sm:text-[61px] lg:text-6xl text-white max-w-2xl leading-[160%] lg:leading-[120%] font-Jakarta font-bold">
               <span className="mb-0 font-light">Open Up to</span> Experience
               More
             </h1>
-            <p className="font-Jakarta font-medium py-[20px] md:mt-8 md:mb-[51px] text-xl text-white max-w-[400px]">
+            <p className="font-Jakarta font-medium py-[20px] md:mt-8 mb-[51px] text-[16px] sm:text-md md:text-xl leading-[160%] md:leading-[140%] text-white max-w-[400px]">
               American-crafted railing, fencing and lighting for retreat-style
               living.
             </p>
-            <div className="md:flex gap-8 pb-[40px] md:pb-44">
+            <div className="flex flex-row gap-4 sm:gap-8  ">
               <p className="mb-5 md:mb-0">
                 <a
                   href="#"
-                  className="font-Jakarta font-medium text-xm md:text-xs bg-[#EEE4DB] py-5 px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500 inline-block"
+                  className="font-Jakarta font-medium text-xm md:text-xs bg-[#EEE4DB] py-5 px-4 sm:px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent]  hover:text-[#EEE4DB] duration-500 inline-block"
                 >
                   See Our Products
                 </a>
@@ -211,7 +79,7 @@ const HeroSection = () => {
               <p>
                 <a
                   href="#"
-                  className="font-Jakarta font-medium text-xm md:text-xs bg-[transparent] py-5 px-[30px] border-[1px] text-[#FFFFFF] hover:bg-[#EEE4DB] hover:text-[#32281F] duration-500 inline-block"
+                  className="font-Jakarta font-medium text-xm md:text-xs bg-[transparent] py-5 px-4 sm:px-[30px] border-[1px] text-[#FFFFFF] hover:bg-[#EEE4DB] hover:text-[#32281F] duration-500 inline-block"
                 >
                   Visualize Your Railing
                 </a>
