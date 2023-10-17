@@ -11,14 +11,14 @@ export const Real_left_arrow = () => {
         <path
           d="M8.33325 4.16668L2.49992 10L8.33325 15.8333"
           stroke="#FCFCFA"
-          stroke-width="0.833333"
-          stroke-miterlimit="10"
+          strokeWidth="0.833333"
+          strokeMiterlimit="10"
         />
         <path
           d="M2.49992 10L18.3333 10"
           stroke="#FCFCFA"
-          stroke-width="0.833333"
-          stroke-miterlimit="10"
+          strokeWidth="0.833333"
+          strokeMiterlimit="10"
         />
       </svg>
     </>
@@ -37,14 +37,14 @@ export const Real_right_arrow = () => {
         <path
           d="M11.6667 15.8333L17.5001 10L11.6667 4.16667"
           stroke="#FCFCFA"
-          stroke-width="0.833333"
-          stroke-miterlimit="10"
+          strokeWidth="0.833333"
+          strokeMiterlimit="10"
         />
         <path
           d="M17.5001 10H1.66675"
           stroke="#FCFCFA"
-          stroke-width="0.833333"
-          stroke-miterlimit="10"
+          strokeWidth="0.833333"
+          strokeMiterlimit="10"
         />
       </svg>
     </>
@@ -63,12 +63,12 @@ export const Search_icon = () => {
         <path
           d="M9.12498 17.2499C13.6123 17.2499 17.25 13.6122 17.25 9.12495C17.25 4.63767 13.6123 1 9.12498 1C4.63768 1 1 4.63767 1 9.12495C1 13.6122 4.63768 17.2499 9.12498 17.2499Z"
           stroke="#EEE4DB"
-          stroke-width="1.10833"
+          strokeWidth="1.10833"
         />
         <path
           d="M20.875 20.9997L14.75 14.9998"
           stroke="#EEE4DB"
-          stroke-width="1.10833"
+          strokeWidth="1.10833"
         />
       </svg>
     </>
@@ -88,17 +88,17 @@ export const Black_icon_1 = () => {
         <path
           d="M40.3333 38.6667C43.2789 38.6667 45.6667 36.2789 45.6667 33.3333C45.6667 30.3878 43.2789 28 40.3333 28C37.3878 28 35 30.3878 35 33.3333C35 36.2789 37.3878 38.6667 40.3333 38.6667Z"
           stroke="#EEE4DB"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M30.333 51.3333V46L34.333 42L40.333 44L46.333 42L50.333 46V51.3333"
           stroke="#EEE4DB"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M54.9996 36.6667L54.3329 36C53.871 35.6868 53.3144 35.5444 52.7588 35.5972C52.2033 35.65 51.6835 35.8948 51.2889 36.2894C50.8943 36.684 50.6495 37.2038 50.5967 37.7593C50.5439 38.3149 50.6864 38.8715 50.9996 39.3334L54.9996 43.3334L58.9996 39.3334C59.3128 38.8715 59.4552 38.3149 59.4024 37.7593C59.3496 37.2038 59.1048 36.684 58.7102 36.2894C58.3156 35.8948 57.7958 35.65 57.2403 35.5972C56.6847 35.5444 56.1281 35.6868 55.6662 36L54.9996 36.6667Z"
           stroke="#EEE4DB"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
       </svg>
     </>
@@ -118,10 +118,10 @@ export const Black_icon_2 = () => {
         <path
           d="M54.3337 29.3333H27.667V51.9999H54.3337V29.3333Z"
           stroke="#EEE4DB"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
-        <path d="M46.333 36V52" stroke="#EEE4DB" stroke-width="1.33333" />
-        <path d="M27.667 36H54.3337" stroke="#EEE4DB" stroke-width="1.33333" />
+        <path d="M46.333 36V52" stroke="#EEE4DB" strokeWidth="1.33333" />
+        <path d="M27.667 36H54.3337" stroke="#EEE4DB" strokeWidth="1.33333" />
       </svg>
     </>
   );
@@ -140,32 +140,32 @@ export const Black_icon_3 = () => {
         <path
           d="M54.6663 38.6667L39.9997 53.3333L25.333 38.6667L31.9997 28H47.9997L54.6663 38.6667Z"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M25.333 38.6666H54.6663"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M37.3337 28L34.667 38.6667"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M42.667 28L45.3337 38.6667"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M40 53.3334L45.3333 38.6667"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
         <path
           d="M34.667 38.6666L40.0003 53.3333"
           stroke="#F4EEE0"
-          stroke-width="1.33333"
+          strokeWidth="1.33333"
         />
       </svg>
     </>
@@ -300,8 +300,8 @@ export const Real_play_btn = () => {
         <path
           d="M1.15576 11.1923V1.27563L9.65576 6.37563L18.1558 11.1923L9.65576 16.009L1.15576 21.1089V11.1923Z"
           stroke="#F4EEE0"
-          stroke-width="1.33"
-          stroke-miterlimit="10"
+          strokeWidth="1.33"
+          strokeMiterlimit="10"
         />
       </svg>
     </>

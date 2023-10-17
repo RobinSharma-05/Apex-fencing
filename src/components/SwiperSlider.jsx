@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import emily from "../assets/images/png/Real_Emily.png";
+import emily from "../assets/images/webp/Real_Emily.webp";
 // import CustomSliderControls from "./CustomSliderControls";
 
 // import "swiper/swiper-bundle.min.css";

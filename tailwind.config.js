@@ -20,8 +20,8 @@ export default {
         DEFAULT: "1rem",
         sm: "2rem",
         lg: "4rem",
-        xl: "20px",
-        "2xl": "50px",
+        xl: "12px",
+        "2xl": "130px",
       },
     },
     fontFamily: {
@@ -41,7 +41,7 @@ export default {
         orange: "#AA6627",
       },
       backgroundImage: {
-        "hero-section-img": "url('assets/images/png/herosection_bg_img.png')",
+        "hero-section-img": "url('assets/images/webp/herosection_bg_img.webp')",
       },
     },
   },

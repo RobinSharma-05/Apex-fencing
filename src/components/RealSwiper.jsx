@@ -4,9 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import { Real_left_arrow, Real_right_arrow } from "./Icons";
-import emily from "../assets/images/png/Real_Emily.png";
-import Jack from "../assets/images/png/Real_Jack.png";
-import Jack2 from "../assets/images/png/Real_Jack2.png";
+import emily from "../assets/images/webp/Real_Emily.webp";
+import Jack from "../assets/images/webp/Real_Jack.webp";
+import Jack2 from "../assets/images/webp/Real_Jack2.webp";
 // import "./styles.css";
 const RealSwiper = () => {
   return (
@@ -16,9 +16,8 @@ const RealSwiper = () => {
         slidesPerView={2.5}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
-       
       >
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-6 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
@@ -43,7 +42,7 @@ const RealSwiper = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
@@ -68,7 +67,7 @@ const RealSwiper = () => {
             </div>
           </div>{" "}
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
           {" "}
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
@@ -94,7 +93,7 @@ const RealSwiper = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-6 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
@@ -119,7 +118,7 @@ const RealSwiper = () => {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
@@ -144,7 +143,7 @@ const RealSwiper = () => {
             </div>
           </div>{" "}
         </SwiperSlide>
-        <SwiperSlide >
+        <SwiperSlide>
           {" "}
           <div className="ps- md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
@@ -171,7 +170,6 @@ const RealSwiper = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-     
     </div>
   );
 };

@@ -12,8 +12,8 @@ const Products = () => {
         <h2 className="text-5xl mb-[30px] md:mb-[74px] mt-[30px] md:mt-[120px] font-Jakarta font-medium">
           Our Products
         </h2>
-        <div className="flex flex-wrap  gap-5">
-          <div className="relative w-full">
+        <div className="flex flex-wrap items-center justify-center xl:justify-between gap-5">
+          <div className="relative max-w-[230px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={aluminum_railing} />
@@ -25,7 +25,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-full">
+          <div className="relative max-w-[230px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img
@@ -40,7 +40,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-full">
+          <div className="relative max-w-[230px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={vertical_cable_railing} />
@@ -52,7 +52,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-full">
+          <div className="relative max-w-[230px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={aluminum_fencing} />
@@ -64,7 +64,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative w-full">
+          <div className="relative max-w-[230px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={lighting} alt="" />

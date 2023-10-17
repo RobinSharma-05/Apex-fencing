@@ -14,10 +14,12 @@ import MyFooter from "./components/MyFooter";
 import Advantages from "./components/Advantages";
 import NextStep from "./components/NextStep";
 import SwiperSlider from "./components/SwiperSlider";
+import MyPreloader from "./components/MyPreloader";
 
 const App = () => {
   return (
-    <div>
+    <>
+      <MyPreloader />
       <HeroSection />
       <Products />
       <Advantages />
@@ -28,7 +30,7 @@ const App = () => {
       <YourFence />
       <Blog />
       <MyFooter />
-    </div>
+    </>
   );
 };
 
