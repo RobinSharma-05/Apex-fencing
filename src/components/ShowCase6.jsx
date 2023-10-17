@@ -25,7 +25,7 @@ const ShowCase6 = () => {
   }
   return (
     <div>
-      <div className="container mx-auto pt-[50px] md:pt-[100px] lg:pt-[145px]">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pt-[50px] md:pt-[100px] lg:pt-[145px]">
         <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
           Showcase Your Space
         </h2>
@@ -308,7 +308,7 @@ const ShowCase6 = () => {
                 allowfullscreen
               ></iframe>
             </div>
-            
+
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing

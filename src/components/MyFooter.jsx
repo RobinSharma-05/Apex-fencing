@@ -13,7 +13,7 @@ import {
 const MyFooter = () => {
   return (
     <div className="bg-light-brown" id="section_7">
-      <div className="container mx-auto mt-24">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0mt-24">
         <div className="md:flex items-center justify-between">
           <div className="flex sm:justify-start justify-center">
             <img className="pt-24 w-1/3 sm:w-1/4" src={logo} alt="logo" />
@@ -136,7 +136,7 @@ const MyFooter = () => {
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
                       <a href="" className="hover_line2">
-                        FAQ
+                        FAQs
                       </a>
                     </p>
                   </div>

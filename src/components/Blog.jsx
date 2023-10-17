@@ -5,7 +5,7 @@ import home_3 from "../assets/images/webp/home-3.webp";
 const Blog = () => {
   return (
     <div
-      className="container mx-auto pt-[30px] sm:pt-[60px] md:pt-[114px]"
+      className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pt-[30px] sm:pt-[60px] md:pt-[114px]"
       id="section_5"
     >
       <h3 className=" font-Jakarta font-medium text-5xl dark-black ">Blog</h3>
@@ -13,7 +13,6 @@ const Blog = () => {
         Stay updated with industry trends, product highlights, and project
         inspiration by exploring our blog articles.
       </p>
-     
 
       <div className="md:flex flex-col-2 flex-wrap justify-center md:justify-center gap-5 pt-[76px]">
         <div className="flex justify-center">
