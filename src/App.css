@@ -10,13 +10,13 @@
 
 @media (max-width: 576px) {
   .content-details {
-    transform: translateX(18%) !important;
+    transform: translateX(9%) !important;
   }
   .content-details_2 {
-    transform: translateX(35%) !important;
+    transform: translateX(28%) !important;
   }
   .content-details_3 {
-    transform: translateX(26%) !important;
+    transform: translateX(18%) !important;
   }
 }
 /* @media (max-width: 1280px) {
