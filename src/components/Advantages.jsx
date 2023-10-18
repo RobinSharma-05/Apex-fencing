@@ -8,7 +8,7 @@ const Advantages = () => {
         <h2 className="text-[37px] md:text-5xl md:pt-[130px] md:pb-[60px] pt-12 pb-10 font-medium font-Jakarta">
           Advantages That Make a Difference
         </h2>
-        <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pb-10 md:pb-[140px] mt-14">
+        <div className="flex-col-2 flex-wrap xl:flex-nowrap flex justify-center xl:justify-between gap-10 mt-[60px] pb-28">
           <div className="flex justify-center md:justify-start mb-5 md:mb-5">
             <div className="max-w-[390px] cursor-pointer">
               <Black_icon_1 />

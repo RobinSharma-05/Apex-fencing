@@ -396,24 +396,48 @@ body {
 .img_hover:hover img {
   scale: 1.1;
 }
-.bg-orange {
-  background-color: #252424 !important;
-  opacity: 0.5 !important;
+
+.backTop {
+  position: fixed;
+  width: 40px;
+  bottom: 20px;
+  padding: 9px;
+  right: 20px;
+  align-items: center;
+  height: 40px !important;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  color: black;
+  font-size: 24px;
+  background: #fdda60;
+  border-radius: 50%;
+  transition: all 200ms ease-in-out;
 }
 .hero-content {
   min-height: calc(100vh - 170px);
 }
-
 @media (min-width: 768px) {
   .hero-content {
-    min-height: calc(100vh - 130px);
+    min-height: calc(100vh - 175px);
   }
 }
 @media (min-width: 992px) {
   .hero-content {
-    min-height: calc(100vh - 125px);
+    min-height: calc(100vh - 180px);
+  }
+}
+@media (min-width: 1440px) {
+  .hero-content {
+    min-height: calc(100vh - 180px);
   }
 }
 .hero_section {
   min-height: calc(100vh - 40px);
+}
+.bg-orange {
+  background-color: #252424 !important;
+  opacity: 0.5 !important;
 }

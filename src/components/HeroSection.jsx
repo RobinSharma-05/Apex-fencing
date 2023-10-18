@@ -10,7 +10,7 @@ import Header from "./Header";
 
 const HeroSection = () => {
   return (
-    <div>
+    <div className="hero_section">
       <div className="bg-light-black py-2">
         <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
@@ -53,7 +53,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="bg-hero-section-img  hero_section bg-no-repeat bg-center bg-cover">
+      <div className="bg-hero-section-img bg-no-repeat bg-center bg-cover">
         <div>
           <Header />
         </div>
