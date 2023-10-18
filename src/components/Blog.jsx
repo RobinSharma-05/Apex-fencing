@@ -31,7 +31,7 @@ const Blog = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="max-w-[400px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#695978] img_hover">
+          <div className="max-w-[400px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#695978gti] img_hover">
             <div className="overflow-hidden">
               <img className="w-full" src={home_2} alt="home" />
             </div>
