@@ -46,7 +46,7 @@ const Products = () => {
               <img className="w-full img_hover" src={vertical_cable_railing} />
 
               <div className="content-details_3">
-                <h4 className="max-w-[150px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
+                <h4 className="max-w-[160px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
                   Vertical Cable Railing
                 </h4>
               </div>
