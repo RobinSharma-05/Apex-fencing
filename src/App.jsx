@@ -15,10 +15,12 @@ import Advantages from "./components/Advantages";
 import NextStep from "./components/NextStep";
 import SwiperSlider from "./components/SwiperSlider";
 import MyPreloader from "./components/MyPreloader";
+import BackToTop from "./components/BackToTop";
 
 const App = () => {
   return (
     <>
+      <BackToTop/>
       <MyPreloader />
       <HeroSection />
       <Products />

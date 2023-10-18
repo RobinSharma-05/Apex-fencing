@@ -10,7 +10,7 @@ const Advantages = () => {
         </h2>
         <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 pb-10 md:pb-[140px]">
           <div className="flex justify-center md:justify-start mb-5 md:mb-5">
-            <div className="max-w-[390px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
+            <div className="max-w-[400px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
               <Black_icon_1 />
               <h3 className="text-2xl mt-10 font-medium font-Jakarta">
                 Human-Centered Approach
@@ -23,7 +23,7 @@ const Advantages = () => {
             </div>
           </div>
           <div className="flex justify-center mb-5 md:mb-5">
-            <div className="max-w-[390px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
+            <div className="max-w-[400px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
               <Black_icon_2 />
               <h3 className="text-2xl mt-10 font-medium font-Jakarta">
                 Customizable Luxury
@@ -37,12 +37,12 @@ const Advantages = () => {
           </div>
 
           <div className="flex justify-center md:justify-start xl:justify-end">
-            <div className="max-w-[390px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
+            <div className="max-w-[400px] cursor-pointer h-[360px] border-[1px] border-[#EEE4DB] hover:border-[black] duration-500 rounded-md p-8">
               <Black_icon_3 />
               <h3 className="text-2xl mt-10 font-medium font-Jakarta">
                 Built for Longevity
               </h3>
-              <p className="font-Jakarta text-xm font-normal mt-5">
+              <p className="font-Jakarta text-xm font-normal mt-5 ">
                 Built to last and backed by PCI 4000 Certification, enjoy peace
                 of mind and long-term value with designs that seamlessly blend
                 durability and style.
