@@ -37,7 +37,7 @@ const Real5 = () => {
     >
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
-          <h2 className="font-Jakarta text-[40px] md:text-5xl font-medium text-light-blue">
+          <h2 className="font-Jakarta text-[39px] md:text-5xl font-medium text-light-blue">
             Real Experiences. Real People.
           </h2>
           <div className="flex gap-5">
@@ -65,7 +65,7 @@ const Real5 = () => {
             <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-6 ">
               <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "The quality of these railings{" "}
-                <span className="text-orange">exceeded </span>all my
+                <span className="text-orange font-bold">exceeded </span>all my
                 expectations. Now, my outdoor space feels like a luxurious
                 retreat. Highly recommend!"
               </p>
@@ -88,9 +88,9 @@ const Real5 = () => {
             <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
               <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "Working with these products has
-                <span className="text-orange"> elevated </span> the quality of
-                my projects. My clients are consistently impressed, making my
-                job so much easier."
+                <span className="text-orange font-bold"> elevated </span> the
+                quality of my projects. My clients are consistently impressed,
+                making my job so much easier."
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
@@ -111,9 +111,9 @@ const Real5 = () => {
             <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
               <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[459px]">
                 "Outstanding products matched by
-                <span className="text-orange"> excellent </span>customer
-                service. As a supplier, it's a relief to work with a company
-                that sets high standards."
+                <span className="text-orange font-bold"> excellent </span>
+                customer service. As a supplier, it's a relief to work with a
+                company that sets high standards."
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>

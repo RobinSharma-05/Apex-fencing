@@ -5,7 +5,7 @@ import home_3 from "../assets/images/webp/home-3.webp";
 const Blog = () => {
   return (
     <div
-      className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0"
+      className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 mb-24"
       id="section_5"
     >
       <h3 className=" font-Jakarta font-medium text-5xl dark-black mt-32">
@@ -18,7 +18,7 @@ const Blog = () => {
 
       <div className="flex-col-2 flex-wrap xl:flex-nowrap flex justify-center xl:justify-between gap-5 pt-[76px]">
         <div className="flex justify-center">
-          <div className="max-w-[400px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#aa6627] img_hover">
+          <div className="max-w-[500px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#5A623D] img_hover">
             <div className="overflow-hidden">
               <img className="w-full" src={home_1} alt="home" />
             </div>
@@ -33,7 +33,7 @@ const Blog = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="max-w-[400px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#aa6627] img_hover">
+          <div className="max-w-[500px] mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#695978] img_hover">
             <div className="overflow-hidden">
               <img className="w-full" src={home_2} alt="home" />
             </div>
@@ -48,7 +48,7 @@ const Blog = () => {
         </div>
 
         <div className="flex justify-center">
-          <div className="max-w-[400px] col-span-2 mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#aa6627] img_hover">
+          <div className="max-w-[500px] col-span-2 mt-5 md:mt-0 cursor-pointer bg-light-brown border-b-8 border-[#aa6627] img_hover">
             <div className="overflow-hidden">
               <img className="w-full" src={home_3} alt="home" />
             </div>

@@ -41,6 +41,95 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+            <div
+              onClick={openModal}
+              className="absolute bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center w-[60px] lg:w-[80px] h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
+            </div>
+            <Transition appear show={isOpen} as={Fragment}>
+              <Dialog as="div" className="relative z-10 " onClose={closeModal}>
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0"
+                  enterTo="opacity-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100"
+                  leaveTo="opacity-0"
+                >
+                  <div className="fixed inset-0 bg-orange bg-opacity-25 " />
+                </Transition.Child>
+
+                <div className="fixed inset-0 overflow-y-auto">
+                  <div className="flex min-h-full items-center justify-center p-6 text-center ">
+                    <Transition.Child
+                      as={Fragment}
+                      enter="ease-out duration-300"
+                      enterFrom="opacity-0 scale-95"
+                      enterTo="opacity-100 scale-100"
+                      leave="ease-in duration-200"
+                      leaveFrom="opacity-100 scale-100"
+                      leaveTo="opacity-0 scale-95"
+                    >
+                      <Dialog.Panel className="w-full h-full min-h-[415px]  max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                        <Dialog.Title
+                          as="h3"
+                          className="text-lg font-medium leading-6 text-gray-900"
+                        >
+                          {/* Watch Amzon */}
+                        </Dialog.Title>
+                        <div
+                          onClick={closeModal}
+                          className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-[-4%] right-[-2%] cursor-pointer flex items-center justify-center"
+                        >
+                          <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
+                          <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
+                        </div>
+                        <div className="mt-2 ">
+                          <iframe
+                            width="100"
+                            height="415"
+                            src="https://www.youtube.com/embed/yN9t3Myv97c"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                          ></iframe>
+
+                          {/* <p className="text-sm text-gray-500">
+                            Your payment has been successfully submitted. We’ve
+                            sent you an email with all of the details of your
+                            order.
+                          </p> */}
+                        </div>
+
+                        {/* <div className="mt-4">
+                          <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={closeModal}
+                          >
+                            Got it, thanks!
+                          </button>
+                        </div> */}
+                      </Dialog.Panel>
+                    </Transition.Child>
+                  </div>
+                </div>
+              </Dialog>
+            </Transition>
+            <div appear show={isOpen} as={Fragment} className="modal ">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/FxgM9k1rg0Q?si=hYznzV0PNmAiPsoB"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
             <div className="flex flex-wrap gap-1 lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -60,6 +149,13 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+            <div
+              onClick={openModal}
+              className="absolute bottom-[30%] sm:bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
+            </div>
+
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -78,6 +174,12 @@ const ShowCase6 = () => {
               <a href="https://www.instagram.com/" target="blank">
                 <Real_Instagram />
               </a>
+            </div>
+            <div
+              onClick={openModal}
+              className="absolute  bottom-[35%] sm:bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -98,6 +200,12 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+            <div
+              onClick={openModal}
+              className="absolute bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
+            </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -117,9 +225,10 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+
             <div
               onClick={openModal}
-              className="absolute top-[50%] ps-1 left-[50%] translate-y-[-50%] translate-x-[-50%] bg-light-green rounded-[50%] flex items-center justify-center w-[80px] h-[80px] cursor-pointer"
+              className="absolute top-[50%] ps-1 left-[50%] translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center w-[60px] lg:w-[80px] h-[60px] lg:h-[80px] cursor-pointer"
             >
               <Real_play_btn />
             </div>
@@ -165,9 +274,8 @@ const ShowCase6 = () => {
                         <div className="mt-2 ">
                           <iframe
                             width="100%"
-                            // max-width="500"
                             height="415"
-                            src="https://www.youtube.com/embed/yN9t3Myv97c"
+                            src="https://www.youtube.com/embed/FxgM9k1rg0Q?si=hYznzV0PNmAiPsoB"
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -215,6 +323,12 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+            <div
+              onClick={openModal}
+              className="absolute bottom-[40%]  left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
+            </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -233,6 +347,12 @@ const ShowCase6 = () => {
               <a href="https://www.instagram.com/" target="blank">
                 <Real_Instagram />
               </a>
+            </div>
+            <div
+              onClick={openModal}
+              className="absolute  bottom-[30%] sm:bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -253,6 +373,12 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
+            <div
+              onClick={openModal}
+              className="absolute  bottom-[30%] sm:bottom-[40%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
+            </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
@@ -271,6 +397,12 @@ const ShowCase6 = () => {
               <a href="https://www.instagram.com/" target="blank">
                 <Real_Instagram />
               </a>
+            </div>
+            <div
+              onClick={openModal}
+              className="absolute  bottom-[30%] sm:bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+            >
+              <Real_play_btn />
             </div>
             <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
@@ -293,7 +425,7 @@ const ShowCase6 = () => {
             </div>
             <div
               onClick={openModal}
-              className="absolute bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green rounded-[50%] flex items-center justify-center w-[80px] h-[80px] cursor-pointer"
+              className="absolute bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
             >
               <Real_play_btn />
             </div>
@@ -328,7 +460,7 @@ const ShowCase6 = () => {
             awe-inspiring transformations featuring our products.
           </p>
           <div className="mx-auto text-center">
-            <div className="font-Jakarta font-medium hover:text-light-black transition-all hover:bg-light-brown duration-500 ease-in-out border-[2px] cursor-pointer border-solid border-[transparent] hover:border-light-black text-white text-xs bg-light-black py-[19px] px-[42px] inline-block ">
+            <div className="font-Jakarta font-medium hover:text-light-black transition-all hover:bg-light-brown duration-500 ease-in-out border-[2px] cursor-pointer border-solid border-[transparent] hover:border-light-black text-white text-xs leading-[160%] bg-light-black py-[19px] px-[42px] inline-block ">
               Get Inspired
             </div>
           </div>
