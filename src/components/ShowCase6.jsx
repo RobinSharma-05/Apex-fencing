@@ -48,8 +48,8 @@ const ShowCase6 = () => {
           Discover how homeowners and builders alike are transforming spaces
           with our products. Get inspired for your next project.
         </p>
-        <div className="d_grid w-100  pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
-          <div className="grid_item1 relative overflow-hidden grid_hover h-[500px] md:h-full  ">
+        <div className="d_grid w-100 justify-center  pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
+          <div className="grid_item1 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full  ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase1}
@@ -122,7 +122,7 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -134,7 +134,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item2 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item2 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase2}
@@ -146,7 +146,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -158,7 +158,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item3 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item3 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase3}
@@ -170,7 +170,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -182,7 +182,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item4 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item4 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase4}
@@ -194,7 +194,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -206,7 +206,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item5 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item5 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase5}
@@ -280,7 +280,7 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -292,7 +292,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item6 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item6 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase6}
@@ -304,7 +304,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -316,7 +316,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item7 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item7 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase7}
@@ -328,7 +328,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -340,7 +340,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item8 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item8 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase8}
@@ -352,7 +352,7 @@ const ShowCase6 = () => {
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -364,7 +364,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item9 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item9 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase9}
@@ -375,7 +375,7 @@ const ShowCase6 = () => {
                 <Real_Instagram />
               </a>
             </div>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>
@@ -387,7 +387,7 @@ const ShowCase6 = () => {
               </h2>
             </div>
           </div>
-          <div className="grid_item10 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item10 max-w-[370px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase10}
@@ -400,7 +400,7 @@ const ShowCase6 = () => {
             </div>
             <div
               onClick={openModal3}
-              className="absolute bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+              className="absolute bottom-[42%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
             >
               <Real_play_btn />
             </div>
@@ -460,7 +460,7 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+            <div className="flex flex-wrap gap-2 max-w-[380px] lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-full">
               <h2 className="font-Jakarta text-white text-xsm font-medium ">
                 #railing
               </h2>

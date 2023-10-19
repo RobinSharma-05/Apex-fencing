@@ -24,7 +24,7 @@ const YourFence = () => {
             </div>
             <div className="flex justify-center xl:justify-start">
               <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black  text-white border border-solid hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
-                <button className="font-Jakarta font-medium text-xs leading-[140%] mb-1">
+                <button className="font-Jakarta font-medium text-xs leading-[140%] mb-0">
                   Locate a Dealer
                 </button>
               </div>

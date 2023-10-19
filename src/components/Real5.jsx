@@ -44,7 +44,7 @@ const Real5 = () => {
     >
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
-          <h2 className="font-Jakarta text-[39px] md:text-5xl font-medium text-light-blue">
+          <h2 className="font-Jakarta text-[39px] lg:text-5xl font-medium text-light-blue">
             Real Experiences. Real People.
           </h2>
           <div className="flex gap-5">

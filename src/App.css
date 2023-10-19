@@ -160,7 +160,6 @@
 }
 .grid_hover img {
   transition: all 200ms ease-in-out;
-  cursor: pointer;
 }
 .grid_hover:hover img {
   transform: scale(1.1);
@@ -342,7 +341,7 @@
   color: red;
 }
 html,
-body {
+a {
   scroll-behavior: smooth;
 }
 .animation_preloader {
@@ -421,9 +420,9 @@ body {
   border-radius: 50%;
   transition: all 200ms ease-in-out;
 }
-.icons_color2{
+/* .icons_color2{
   position: absolute;
   top: 5%;
   right: 5%;
   transition: all 200ms ease-in-out;
-}
+} */

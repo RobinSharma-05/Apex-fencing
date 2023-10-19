@@ -12,7 +12,7 @@ const YourFence = () => {
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="w-full pb-12 md:pb-[95px] pt-12 md:pt-[89px] lg:pe-[11px] px-5">
           <div className="flex justify-center xl:justify-start text-center xl:text-start">
-            <h3 className="text-white font-Jakarta font-medium text-[34px]">
+            <h3 className="text-white font-Jakarta font-medium text-3xl sm:text-[34px]">
               Visualize Your Fence
             </h3>
           </div>
