@@ -7,20 +7,21 @@ import { x } from "react-icons-kit/feather/x";
 import { Link } from "react-router-dom";
 
 const Header = () => {
-    const [nav, setNav] = useState(true);
+  const [nav, setNav] = useState(true);
 
-    function shownav() {
-      setNav(false);
-      document.body.classList.add("overflow-hidden");
-    }
-    function hidenav() {
-      setNav(true);
-      document.body.classList.remove("overflow-hidden");
-    }
+  function shownav() {
+    setNav(false);
+    document.body.classList.add("overflow-hidden");
+  }
+  function hidenav() {
+    setNav(true);
+    document.body.classList.remove("overflow-hidden");
+  }
   return (
     <>
+      {/* ============== NAVBAR ============== */}
       <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
-        <div className="py-5 md:py-10">
+        <div className="py-4 sm:py-10">
           <div className="flex items-center justify-between">
             <div className="w-10/12 sm:w-1/3">
               <img
@@ -50,7 +51,7 @@ const Header = () => {
               >
                 <a
                   href="#section_2"
-                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Railing
                 </a>
@@ -63,7 +64,7 @@ const Header = () => {
               >
                 <a
                   href="#section_3"
-                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Fencing
                 </a>
@@ -76,7 +77,7 @@ const Header = () => {
               >
                 <a
                   href="#section_4"
-                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Lighting
                 </a>
@@ -89,7 +90,7 @@ const Header = () => {
               >
                 <a
                   href="#section_5"
-                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Inspiration
                 </a>
@@ -102,7 +103,7 @@ const Header = () => {
               >
                 <a
                   href="#section_6"
-                  className="hover-line whitespace-nowrap font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line whitespace-nowrap font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Why Acme
                 </a>
@@ -115,7 +116,7 @@ const Header = () => {
               >
                 <a
                   href="#section_7"
-                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs"
+                  className="hover-line font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs "
                 >
                   Resources
                 </a>
@@ -128,7 +129,7 @@ const Header = () => {
               >
                 <a
                   href="#"
-                  className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs bg-[#EEE4DB] py-4 sm:py-5 px-4 :sm:px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
+                  className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs  bg-[#EEE4DB] py-4 sm:py-5 px-4 sm:px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
                 >
                   Where to Buy
                 </a>
@@ -140,9 +141,9 @@ const Header = () => {
             >
               {" "}
               {nav ? (
-                <Icon icon={menu} size={50} className="icons_color" />
+                <Icon icon={menu}  size={50} className="icons_color" />
               ) : (
-                <Icon icon={x} size={50} className="icons_color2" />
+                <Icon icon={x}  size={50} className="icons_color2" />
               )}
             </div>
           </div>

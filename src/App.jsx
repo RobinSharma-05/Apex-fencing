@@ -20,7 +20,7 @@ import BackToTop from "./components/BackToTop";
 const App = () => {
   return (
     <>
-      <BackToTop/>
+      <BackToTop />
       <MyPreloader />
       <HeroSection />
       <Products />

@@ -3,32 +3,9 @@ import garden from "../assets/images/webp/section_fourth.webp";
 const YourFence = () => {
   return (
     <div id="section_4">
-      {/* <div className="">
-        <div className="lg:flex xl:gap-7 justify-between 2xl:justify-center">
-          <div>
-            <img className="w-full h-full" src={garden} alt="garden" />
-          </div>
-          <div className=" bg-dark-purple">
-            <div className="lg:max-w-[570px] pb-12 md:pb-[95px] pt-12 md:pt-[89px] lg:ps-20 lg:pe-[11px] px-5">
-              <div className="flex justify-center lg:justify-start">
-                <h3 className="text-white font-Riviera font-medium text-[34px] text-center lg:text-start"></h3>
-              </div>
-              <div className="flex justify-center text-center lg:text-start lg:justify-start mt-5">
-                <p className="font-Jakarta text-white max-w-[470px] font-normal text-lg"></p>
-              </div>
-              <div className="flex justify-center lg:justify-start">
-                <div className="hover:bg-light-brown mt-[58px] hover:text-black hover:border-2 text-white border-2 hover:border-black border-white py-4 px-[33px] inline-block duration-500">
-                  <button className="font-Jakarta font-medium text-base  mb-1"></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
       <div className="bg-dark-purple relative">
         <img
-          className="left-0 h-full absolute hidden xl:block"
+          className="left-0 h-full w-[55%] absolute hidden xl:block object-cover"
           src={garden}
           alt="garden"
         />
@@ -46,7 +23,7 @@ const YourFence = () => {
               </p>
             </div>
             <div className="flex justify-center xl:justify-start">
-              <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black  text-white border border-solid hover:border-black border-[#eee4db] py-4 px-[33px] inline-block">
+              <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black  text-white border border-solid hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
                 <button className="font-Jakarta font-medium text-xs leading-[140%] mb-1">
                   Locate a Dealer
                 </button>

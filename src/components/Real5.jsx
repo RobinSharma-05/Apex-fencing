@@ -24,7 +24,14 @@ const Real5 = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 1.07,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1.01,
           slidesToScroll: 1,
         },
       },
@@ -32,10 +39,10 @@ const Real5 = () => {
   };
   return (
     <div
-      className="bg-light-grey2 py-[30px]  md:py-[100px] lg:py-[141px] overflow-x-hidden"
+      className="bg-light-grey2 py-12  md:py-[100px] lg:py-[141px] overflow-x-hidden"
       id="section_6"
     >
-      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 ">
+      <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
           <h2 className="font-Jakarta text-[39px] md:text-5xl font-medium text-light-blue">
             Real Experiences. Real People.

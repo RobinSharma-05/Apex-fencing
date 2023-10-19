@@ -2,14 +2,14 @@ import React from "react";
 import garden from "../assets/images/webp/garden.webp";
 const YourFence = () => {
   return (
-    <div className="bg-[#5a623d] mt-8 relative">
+    <div className="bg-[#5a623d]  relative">
       <img
-        className="right-0 h-full absolute hidden xl:block"
+        className="right-0 h-full w-3/6 absolute hidden xl:block object-cover"
         src={garden}
         alt="garden"
       />
       <img className="xl:hidden w-full" src={garden} alt="garden" />
-      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
+      <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="w-full pb-12 md:pb-[95px] pt-12 md:pt-[89px] lg:pe-[11px] px-5">
           <div className="flex justify-center xl:justify-start text-center xl:text-start">
             <h3 className="text-white font-Jakarta font-medium text-[34px]">
@@ -23,7 +23,7 @@ const YourFence = () => {
             </p>
           </div>
           <div className="flex justify-center xl:justify-start">
-            <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black hover:border-2 text-white border-2 hover:border-black border-[#eee4db] py-4 px-[33px] inline-block">
+            <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black hover:border-2 text-white border-2 hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
               <button className="font-Jakarta font-medium text-xs mb-1">
                 Start Designing
               </button>

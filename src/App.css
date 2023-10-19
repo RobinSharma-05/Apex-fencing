@@ -10,13 +10,13 @@
 
 @media (max-width: 576px) {
   .content-details {
-    transform: translateX(18%) !important;
+    transform: translateX(9%) !important;
   }
   .content-details_2 {
-    transform: translateX(35%) !important;
+    transform: translateX(28%) !important;
   }
   .content-details_3 {
-    transform: translateX(26%) !important;
+    transform: translateX(18%) !important;
   }
 }
 .backTop {
@@ -98,8 +98,11 @@
     transition: all 300ms ease-in-out;
     z-index: 1;
   }
+  .icons_color{
+    width: 40px !important;
+    height: 40px !important;
+  }
 }
-
 .modal_box {
   max-width: 800px !important;
 }
@@ -123,26 +126,21 @@
   max-width: 400px;
   margin: auto;
   overflow: hidden;
-  background: linear-gradient(
-    180deg,
-    black rgba(37, 37, 37, 0.7) 63.54%
-  ) !important;
 }
 .content .content-overlay {
   background: linear-gradient(180deg, rgba(37, 37, 37, 0) 3.65%, black);
   position: absolute;
   left: 0;
-  top: 30%;
+  top: 10%;
   bottom: 0;
   right: 0;
-  opacity: 0;
-  transition: all 0.4s ease-in-out 0s;
+  opacity: 0.7;
+  filter: blur(10px);
+  transition: all 0.4s ease-in-out;
 }
 .content:hover .content-overlay {
   opacity: 1;
-}
-.content .content-overlay {
-  opacity: 0.7;
+  filter: blur(0px);
 }
 .content-details {
   transform: translateX(10%);
@@ -151,7 +149,12 @@
   transform: translateX(30%);
 }
 .content-details_3 {
-  transform: translateX(17%);
+  transform: translateX(15%);
+}
+@media (min-width:1024px) and (max-width:1200px) {
+  .content-details_3 {
+  transform: translateX(8% );
+}
 }
 .slider .slick-list {
   overflow: visible;

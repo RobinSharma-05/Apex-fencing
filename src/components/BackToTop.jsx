@@ -29,9 +29,9 @@ const BackToTop = () => {
             className="backTop "
             onClick={backTop}
             style={{ height: 90, display: showScroll ? "flex" : "none" }}
-                  >
-                      ^
-        </div>
+          >
+            ^
+          </div>
         </div>
       </section>
     </>

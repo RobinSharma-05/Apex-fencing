@@ -12,8 +12,8 @@ const Products = () => {
         <h2 className="text-5xl mb-[30px] md:mb-[74px] mt-[30px] md:mt-[120px] font-Jakarta font-medium">
           Our Products
         </h2>
-        <div className="flex flex-wrap items-center justify-center xl:justify-between gap-5">
-          <div className="relative max-w-[230px]">
+        <div className="flex justify-center items-center flex-wrap lg:grid  lg:grid-cols-5 gap-5 w-full">
+          <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={aluminum_railing} />
@@ -25,7 +25,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative max-w-[230px]">
+          <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img
@@ -40,19 +40,19 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative max-w-[230px]">
+          <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={vertical_cable_railing} />
 
               <div className="content-details_3">
-                <h4 className="max-w-[150px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
+                <h4 className="max-w-[160px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
                   Vertical Cable Railing
                 </h4>
               </div>
             </div>
           </div>
-          <div className="relative max-w-[230px]">
+          <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={aluminum_fencing} />
@@ -64,7 +64,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="relative max-w-[230px]">
+          <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
               <img className="w-full img_hover" src={lighting} alt="" />
@@ -76,6 +76,43 @@ const Products = () => {
             </div>
           </div>
         </div>
+        {/* <div className="flex justify-center items-center flex-wrap lg:grid  lg:grid-cols-5 gap-5 w-full">
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+        </div> */}
       </div>
     </div>
   );
