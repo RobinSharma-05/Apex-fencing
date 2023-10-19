@@ -346,15 +346,18 @@ body {
   scroll-behavior: smooth;
 }
 .animation_preloader {
-  animation: loder 4s linear;
+  animation: loder 2s linear;
 }
 @keyframes loder {
   0% {
     transform: scale(0.8);
   }
 
-  75% {
-    transform: scale(1.5);
+  50% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 .perloaderback {

@@ -19,7 +19,7 @@ const Blog = () => {
           <div className="overflow-hidden">
             <img className="w-full" src={home_1} alt="home" />
           </div>
-          <h4 className="text-black font-Jakarta font-medium text-2xl px-9 mt-[38px] mb-16 leading-[120%]">
+          <h4 className="text-black font-Jakarta font-medium text-[23px] px-9 mt-[38px] mb-16 leading-[120%]">
             4 Ways to Handle Your Deck’s Support Posts
           </h4>
           <p className="text-black font-Jakarta font-medium text-xs mb-7 px-9">
@@ -32,7 +32,7 @@ const Blog = () => {
           <div className="overflow-hidden">
             <img className="w-full" src={home_2} alt="home" />
           </div>
-          <h4 className="text-black font-Jakarta font-medium text-2xl px-9 mt-[38px] mb-16 leading-[120%]">
+          <h4 className="text-black font-Jakarta font-medium text-[23px] px-9 mt-[38px] mb-16 leading-[120%]">
             3 Ways to Minimize the Posts in Your Railing System
           </h4>
           <p className="text-black font-Jakarta font-medium text-xs mb-7 px-9">
@@ -45,7 +45,7 @@ const Blog = () => {
           <div className="overflow-hidden">
             <img className="w-full" src={home_3} alt="home" />
           </div>
-          <h4 className="text-black font-Jakarta font-medium text-2xl px-9 mt-[38px] mb-16 leading-[120%]">
+          <h4 className="text-black font-Jakarta font-medium text-[23px] px-9 mt-[38px] mb-16 leading-[120%]">
             7 Safety Issues to Check on Your Deck
           </h4>
           <p className="text-black font-Jakarta font-medium text-xs mb-7 px-9">

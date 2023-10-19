@@ -4,7 +4,7 @@ const YourFence = () => {
   return (
     <div className="bg-[#5a623d]  relative">
       <img
-        className="right-0 h-full w-3/6 absolute hidden xl:block object-cover"
+        className="right-0 h-full w-[55%] absolute hidden xl:block object-cover"
         src={garden}
         alt="garden"
       />
