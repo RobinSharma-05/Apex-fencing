@@ -5,7 +5,7 @@ const Advantages = () => {
   return (
     <div className="bg-light-brown" id="section_3">
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
-        <h2 className="text-[37px] md:text-5xl md:pt-[130px] pt-12 pb-10 font-medium font-Jakarta">
+        <h2 className="text-[37px] md:text-5xl md:pt-[130px] pt-12 font-medium leading-[130%] font-Jakarta">
           Advantages That Make a Difference
         </h2>
         <div className="flex-col-2 flex-wrap xl:flex-nowrap flex justify-center xl:justify-between gap-10 mt-[60px] pb-28">

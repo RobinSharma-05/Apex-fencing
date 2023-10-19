@@ -11,7 +11,7 @@ import Header from "./Header";
 const HeroSection = () => {
   return (
     <div className="hero_section">
-      <div className="bg-light-black py-2 ">
+      <div className="bg-light-black py-2">
         <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
             <p>

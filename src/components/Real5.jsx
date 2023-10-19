@@ -95,9 +95,9 @@ const Real5 = () => {
             <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
               <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "Working with these products has
-                <span className="text-orange font-bold"> elevated </span> the quality of
-                my projects. My clients are consistently impressed, making my
-                job so much easier."
+                <span className="text-orange font-bold"> elevated </span> the
+                quality of my projects. My clients are consistently impressed,
+                making my job so much easier."
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
@@ -118,9 +118,9 @@ const Real5 = () => {
             <div className="real_card max-w-[515px] h-[100%]  w-100 md:py-5 px-5 ">
               <p className="font-Jakarta text-[22px] sm:text-3xl font-normal text-black leading-[150%] max-w-[459px]">
                 "Outstanding products matched by
-                <span className="text-orange font-bold"> excellent </span>customer
-                service. As a supplier, it's a relief to work with a company
-                that sets high standards."
+                <span className="text-orange font-bold"> excellent </span>
+                customer service. As a supplier, it's a relief to work with a
+                company that sets high standards."
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>

@@ -4,7 +4,7 @@ const YourFence = () => {
   return (
     <div className="bg-[#5a623d]  relative">
       <img
-        className="right-0 h-full w-3/6 absolute hidden xl:block object-cover"
+        className="right-0 h-full w-[55%] absolute hidden xl:block object-cover"
         src={garden}
         alt="garden"
       />
@@ -24,7 +24,7 @@ const YourFence = () => {
           </div>
           <div className="flex justify-center xl:justify-start">
             <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black hover:border-2 text-white border-2 hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
-              <button className="font-Jakarta font-medium text-xs mb-1">
+              <button className="font-Jakarta font-medium text-xs mb-0">
                 Start Designing
               </button>
             </div>

@@ -129,7 +129,7 @@ const Header = () => {
               >
                 <a
                   href="#"
-                  className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs  bg-[#EEE4DB] py-4 sm:py-5 px-4 sm:px-[30px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
+                  className="inline-block font-Jakarta font-medium text-[4vw] sm:text-[3vw] md:text-[2vw] xl:text-xs bg-[#EEE4DB] py-4 sm:py-[19px] px-4 sm:px-[29px] border-[1px] text-[#32281F] hover:bg-[transparent] hover:text-[#EEE4DB] duration-500"
                 >
                   Where to Buy
                 </a>
@@ -141,9 +141,9 @@ const Header = () => {
             >
               {" "}
               {nav ? (
-                <Icon icon={menu}  size={50} className="icons_color" />
+                <Icon icon={menu} size={45} className="icons_color" />
               ) : (
-                <Icon icon={x}  size={50} className="icons_color2" />
+                <Icon icon={x} size={45} className="icons_color2" />
               )}
             </div>
           </div>

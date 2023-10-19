@@ -20,7 +20,7 @@ const MyFooter = () => {
           </div>
 
           <div className="flex justify-center">
-            <div className="flex items-center gap-6 md:mt-[0px] mt-[30px]">
+            <div className="flex items-center gap-6 md:mt-0 mt-[30px]">
               <div className="hover:translate-y-[-8px] duration-300">
                 <a href="https://www.facebook.com/" target="blank">
                   <Facebookicon />
@@ -56,7 +56,7 @@ const MyFooter = () => {
                 <div className="mt-7 sm:mt-12">
                   <h4 className="font-bold text-md font-Jakarta">Products</h4>
                   <div className="mt-3 sm:mt-5">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Aluminum Railing
@@ -64,7 +64,7 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Cable Railing
@@ -72,7 +72,7 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Aluminum Fencing
@@ -80,14 +80,14 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         Lighting
                       </a>
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Accessories
@@ -110,7 +110,7 @@ const MyFooter = () => {
                 <div className="mt-7 sm:mt-12">
                   <h4 className="font-bold text-md font-Jakarta">Resources</h4>
                   <div className="mt-3 sm:mt-5">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Dealer Portal
@@ -118,7 +118,7 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Designer Guide
@@ -126,7 +126,7 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         {" "}
                         Warranty
@@ -134,7 +134,7 @@ const MyFooter = () => {
                     </p>
                   </div>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         FAQs
                       </a>
@@ -142,13 +142,13 @@ const MyFooter = () => {
                   </div>
                 </div>
                 <div className="mt-8 sm:mt-12">
-                  <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                  <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                     <a href="" className="hover_line2">
                       Careers
                     </a>
                   </p>
                   <div className="mt-2">
-                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer">
+                    <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
                       <a href="" className="hover_line2">
                         Press Releases
                       </a>
@@ -171,8 +171,8 @@ const MyFooter = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row justify-between pb-6 sm:pb-12 md:mt-6">
           <div className="flex justify-center items-end md:mt-0 mt-7 sm:mt-14">
-            <p className="text-blck font-Jakarta font-semibold text-xm cursor-pointer">
-              © 2023 Apex Fencing & Railing. All rights reserved.
+            <p className="text-blck font-Jakarta font-semibold text-xm cursor-pointer leading-6">
+              Â© 2023 Apex Fencing & Railing. All rights reserved.
             </p>
           </div>
           <div className="flex items-end justify-center gap-[70px] md:mt-0 mt-4 sm:mt-12">

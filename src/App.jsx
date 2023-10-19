@@ -16,6 +16,7 @@ import NextStep from "./components/NextStep";
 import SwiperSlider from "./components/SwiperSlider";
 import MyPreloader from "./components/MyPreloader";
 import BackToTop from "./components/BackToTop";
+import ShowcaseGrid from "./components/ShowcaseGrid";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
       <NextStep />
       {/* <SwiperSlider /> */}
       <Real5 />
+      {/* <ShowcaseGrid/> */}
       <ShowCase6 />
       <YourFence />
       <Blog />
