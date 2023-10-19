@@ -2,7 +2,7 @@ import React from "react";
 import garden from "../assets/images/webp/garden.webp";
 const YourFence = () => {
   return (
-    <div className="bg-[#5a623d] mt-8 relative">
+    <div className="bg-[#5a623d]  relative">
       <img
         className="right-0 h-full w-3/6 absolute hidden xl:block object-cover"
         src={garden}

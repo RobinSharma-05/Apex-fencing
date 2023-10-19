@@ -8,11 +8,11 @@ import lighting from "../assets/images/webp/lighting.webp";
 const Products = () => {
   return (
     <div id="section_2">
-      <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0   mt-[30px] md:mt-[120px] pb-[42px] sm:pb-36">
-        <h2 className="text-5xl mb-[30px] md:mb-[74px] font-Jakarta font-medium">
+      <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pb-[40px] md:pb-36">
+        <h2 className="text-5xl mb-[30px] md:mb-[74px] mt-[30px] md:mt-[120px] font-Jakarta font-medium">
           Our Products
         </h2>
-        <div className="flex justify-center items-center flex-wrap  lg:grid lg:grid-cols-5 lg:justify-between gap-5">
+        <div className="flex justify-center items-center flex-wrap lg:grid  lg:grid-cols-5 gap-5 w-full">
           <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
@@ -76,6 +76,43 @@ const Products = () => {
             </div>
           </div>
         </div>
+        {/* <div className="flex justify-center items-center flex-wrap lg:grid  lg:grid-cols-5 gap-5 w-full">
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+          <div className="max-w-[300px]">
+            <img
+              className="w-full h-full"
+              src={aluminum_railing}
+              alt="aluminum_railing"
+            />
+          </div>
+        </div> */}
       </div>
     </div>
   );

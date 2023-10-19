@@ -20,7 +20,7 @@ const MyFooter = () => {
           </div>
 
           <div className="flex justify-center">
-            <div className="flex items-center gap-6 md:mt-24 mt-[30px]">
+            <div className="flex items-center gap-6 md:mt-0 mt-[30px]">
               <div className="hover:translate-y-[-8px] duration-300">
                 <a href="https://www.facebook.com/" target="blank">
                   <Facebookicon />

@@ -60,6 +60,10 @@
     transition: all 300ms ease-in-out;
     z-index: 1;
   }
+  .icons_color {
+    width: 40px !important;
+    height: 40px !important;
+  }
 }
 .bg-orange {
   background-color: #252424 !important;
@@ -111,7 +115,12 @@
   transform: translateX(30%);
 }
 .content-details_3 {
-  transform: translateX(17%);
+  transform: translateX(15%);
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .content-details_3 {
+    transform: translateX(8%);
+  }
 }
 .slider .slick-list {
   overflow: visible;
