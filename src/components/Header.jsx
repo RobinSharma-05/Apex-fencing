@@ -44,7 +44,7 @@ const Header = () => {
             >
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -57,7 +57,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -70,7 +70,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -83,7 +83,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -96,7 +96,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -109,7 +109,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
@@ -122,7 +122,7 @@ const Header = () => {
               </li>
               <li
                 onClick={() => {
-                  setNav(false);
+                  setNav(true);
                 }}
                 className=""
               >
