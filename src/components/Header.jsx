@@ -16,6 +16,8 @@ const Header = () => {
     setNav(true);
     document.body.classList.remove("overflow-hidden");
   }
+ 
+  
   return (
     <>
       {/* ============== NAVBAR ============== */}
@@ -43,9 +45,7 @@ const Header = () => {
               }
             >
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -56,9 +56,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -69,9 +67,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -82,9 +78,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -95,9 +89,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -108,9 +100,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className="xl:me-[30px] mb-4 xl:mb-0"
               >
                 <a
@@ -121,9 +111,7 @@ const Header = () => {
                 </a>
               </li>
               <li
-                onClick={() => {
-                  setNav(true);
-                }}
+                onClick={hidenav}
                 className=""
               >
                 <a

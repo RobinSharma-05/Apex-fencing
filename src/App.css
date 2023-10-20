@@ -161,6 +161,7 @@
 .grid_hover img {
   transition: all 200ms ease-in-out;
 }
+
 .grid_hover:hover img {
   transform: scale(1.1);
 }
