@@ -87,43 +87,6 @@ const Products = () => {
             </div>
           </div>
         </div>
-        {/* <div className="flex justify-center items-center flex-wrap lg:grid  lg:grid-cols-5 gap-5 w-full">
-          <div className="max-w-[300px]">
-            <img
-              className="w-full h-full"
-              src={aluminum_railing}
-              alt="aluminum_railing"
-            />
-          </div>
-          <div className="max-w-[300px]">
-            <img
-              className="w-full h-full"
-              src={aluminum_railing}
-              alt="aluminum_railing"
-            />
-          </div>
-          <div className="max-w-[300px]">
-            <img
-              className="w-full h-full"
-              src={aluminum_railing}
-              alt="aluminum_railing"
-            />
-          </div>
-          <div className="max-w-[300px]">
-            <img
-              className="w-full h-full"
-              src={aluminum_railing}
-              alt="aluminum_railing"
-            />
-          </div>
-          <div className="max-w-[300px]">
-            <img
-              className="w-full h-full"
-              src={aluminum_railing}
-              alt="aluminum_railing"
-            />
-          </div>
-        </div> */}
       </div>
     </div>
   );

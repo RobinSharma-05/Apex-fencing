@@ -1,10 +1,5 @@
 import React from "react";
 import { Search_icon } from "./Icons";
-// import logo from "../assets/images/png/logoo.png";
-// import { Icon } from "react-icons-kit";
-// import { menu } from "react-icons-kit/feather/menu";
-// import { x } from "react-icons-kit/feather/x";
-// import { Link } from "react-router-dom";
 import Header from "./Header";
 
 const HeroSection = () => {
@@ -13,38 +8,33 @@ const HeroSection = () => {
       <div className="bg-light-black py-2">
         <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
-            {/* <p> */}
-            <a
+                        <a
               href="#section_7"
               className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
             >
               Dealer Portal
             </a>
-            {/* </p>
-            <p> */}
+           
             <a
               href="#section_6"
               className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
             >
               Training
             </a>
-            {/* </p>
-            <p> */}
+           
             <a
               href="#section_5"
               className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
             >
               Blog
             </a>
-            {/* </p>
-            <p> */}
+           
             <a
               href="tel:+1-888-704-7130"
               className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
             >
               1-888-704-7130
             </a>
-            {/* </p> */}
             <a href="https://www.google.com" target="_blank">
               <Search_icon />
             </a>

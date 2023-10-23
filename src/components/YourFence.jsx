@@ -31,11 +31,7 @@ const YourFence = () => {
           </div>
         </div>
       </div>
-      {/* <div className="flex flex-col lg:flex-row justify-between">
-        <div className="bg-[#5a623d] order-2 lg:order-1"></div>
-        <div className="order-1 lg:order-2"></div>
-      </div> */}
-    </div>
+       </div>
   );
 };
 

@@ -1,13 +1,9 @@
-// import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import React from "react";
-// Import Swiper styles
 import "swiper/css";
-// import { Real_left_arrow, Real_right_arrow } from "./Icons";
 import emily from "../assets/images/webp/Real_Emily.webp";
 import Jack from "../assets/images/webp/Real_Jack.webp";
 import Jack2 from "../assets/images/webp/Real_Jack2.webp";
-// import "./styles.css";
 const RealSwiper = () => {
   return (
     <div>

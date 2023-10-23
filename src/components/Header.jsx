@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-// import { Logo, Search_icon } from "./Icons";
 import logo from "../assets/images/png/logoo.png";
 import { Icon } from "react-icons-kit";
 import { menu } from "react-icons-kit/feather/menu";
 import { x } from "react-icons-kit/feather/x";
-// import { Link } from "react-router-dom";
 
 const Header = () => {
   const [nav, setNav] = useState(true);
@@ -34,7 +32,6 @@ const Header = () => {
               <span></span>
               <span></span>
             </label>
-            {/* <input type="checkbox" id="menuIcon" hidden className="d-none" /> */}
             <ul
               className={
                 nav
