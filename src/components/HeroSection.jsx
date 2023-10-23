@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import { Logo, Search_icon } from "./Icons";
-import logo from "../assets/images/png/logoo.png";
-import { Icon } from "react-icons-kit";
-import { menu } from "react-icons-kit/feather/menu";
-import { x } from "react-icons-kit/feather/x";
-import { Link } from "react-router-dom";
-
+import React from "react";
+import { Search_icon } from "./Icons";
+// import logo from "../assets/images/png/logoo.png";
+// import { Icon } from "react-icons-kit";
+// import { menu } from "react-icons-kit/feather/menu";
+// import { x } from "react-icons-kit/feather/x";
+// import { Link } from "react-router-dom";
 import Header from "./Header";
 
 const HeroSection = () => {
@@ -14,38 +13,38 @@ const HeroSection = () => {
       <div className="bg-light-black py-2">
         <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
           <div className="flex justify-end">
-            <p>
-              <a
-                href="#section_7"
-                className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
-              >
-                Dealer Portal
-              </a>
-            </p>
-            <p>
-              <a
-                href="#section_6"
-                className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
-              >
-                Training
-              </a>
-            </p>
-            <p>
-              <a
-                href="#section_5"
-                className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
-              >
-                Blog
-              </a>
-            </p>
-            <p>
-              <a
-                href="tel:+1-888-704-7130"
-                className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
-              >
-                1-888-704-7130
-              </a>
-            </p>
+            {/* <p> */}
+            <a
+              href="#section_7"
+              className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
+            >
+              Dealer Portal
+            </a>
+            {/* </p>
+            <p> */}
+            <a
+              href="#section_6"
+              className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
+            >
+              Training
+            </a>
+            {/* </p>
+            <p> */}
+            <a
+              href="#section_5"
+              className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
+            >
+              Blog
+            </a>
+            {/* </p>
+            <p> */}
+            <a
+              href="tel:+1-888-704-7130"
+              className="md:me-[30px] me-4 hover-line font-Jakarta font-medium text-xxs"
+            >
+              1-888-704-7130
+            </a>
+            {/* </p> */}
             <a href="https://www.google.com" target="_blank">
               <Search_icon />
             </a>
@@ -53,21 +52,21 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="bg-hero-section-img   bg-no-repeat bg-center bg-cover">
+      <div className="bg-hero-section-img bg-no-repeat bg-center bg-cover">
         <div>
           <Header />
         </div>
-        <div className="container xl:w-[1180px] 2xl:w-[1320px]  px-3 sm:px-5 xl:px-0 mx-auto hero-content flex items-start justify-center flex-col">
+        <div className="container xl:w-[1180px] 2xl:w-[1320px] px-3 sm:px-5 xl:px-0 mx-auto hero-content flex items-start justify-center flex-col">
           <div className="flex flex-col justify-center xl:pt-[70px] xl:pb-[130px] ">
-            <h1 className="text-[37px] sm:text-[61px]  lg:text-6xl  text-white max-w-2xl leading-[160%] lg:leading-[120%] 2xl:leading-[130%] font-Jakarta font-bold">
-              <span className="mb-0 font-light ">Open Up to</span> Experience
+            <h1 className="text-[37px] sm:text-[61px] lg:text-6xl  text-white max-w-2xl leading-[160%] lg:leading-[120%] 2xl:leading-[130%] font-Jakarta font-bold">
+              <span className="mb-0 font-light">Open Up to</span> Experience
               More
             </h1>
             <p className="font-Jakarta font-medium py-[20px] md:mt-8 mb-[51px] text-[16px] sm:text-md md:text-xl leading-[160%] md:leading-[140%] text-white max-w-[400px]">
               American-crafted railing, fencing and lighting for retreat-style
               living.
             </p>
-            <div className="flex flex-row gap-4 sm:gap-8  ">
+            <div className="flex flex-row gap-4 sm:gap-8">
               <p className="mb-5 md:mb-0">
                 <a
                   href="#"

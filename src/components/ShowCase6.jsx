@@ -12,7 +12,7 @@ import showcase8 from "../assets/images/webp/showcase8.webp";
 import showcase9 from "../assets/images/webp/showcase9.webp";
 import showcase10 from "../assets/images/webp/showcase10.webp";
 import { Real_Instagram, Real_play_btn } from "./Icons";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 const ShowCase6 = () => {
   let [isOpen1, setIsOpen1] = useState(false);
   let [isOpen2, setIsOpen2] = useState(false);
@@ -43,15 +43,14 @@ const ShowCase6 = () => {
         <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
           Showcase Your Space
         </h2>
-
         <p className="font-Jakarta text-lg font-normal text-black max-w-[861px]">
           Discover how homeowners and builders alike are transforming spaces
           with our products. Get inspired for your next project.
         </p>
-        <div className="d_grid w-100  pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
-          <div className="grid_item1 relative overflow-hidden grid_hover h-[500px] md:h-full  ">
+        <div className="d_grid w-100 pt-[20px] sm:pt-[40px] md:pt-[88px] md:pb-[65px]">
+          <div className="grid_item1 relative overflow-hidden grid_hover h-[500px] md:h-full">
             <img
-              className=" w-full h-full  object-cover"
+              className="w-full h-full object-cover"
               src={showcase1}
               alt="showcase1"
             />
@@ -67,7 +66,7 @@ const ShowCase6 = () => {
               <Real_play_btn />
             </div>
             <Transition appear show={isOpen1} as={Fragment}>
-              <Dialog as="div" className="relative z-10 " onClose={closeModal1}>
+              <Dialog as="div" className="relative z-10" onClose={closeModal1}>
                 <Transition.Child
                   as={Fragment}
                   enter="ease-out duration-300"
@@ -77,11 +76,11 @@ const ShowCase6 = () => {
                   leaveFrom="opacity-100"
                   leaveTo="opacity-0"
                 >
-                  <div className="fixed inset-0 bg-orange bg-opacity-25 " />
+                  <div className="fixed inset-0 bg-orange bg-opacity-25" />
                 </Transition.Child>
 
                 <div className="fixed inset-0 overflow-y-auto">
-                  <div className="flex min-h-full items-center justify-center p-6 text-center ">
+                  <div className="flex min-h-full items-center justify-center p-6 text-center">
                     <Transition.Child
                       as={Fragment}
                       enter="ease-out duration-300"
@@ -91,21 +90,21 @@ const ShowCase6 = () => {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="w-full h-full min-h-[415px]  max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                      <Dialog.Panel className="w-full h-full min-h-[415px] max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
                         <Dialog.Title
                           as="h3"
                           className="text-lg font-medium leading-6 text-gray-900"
                         >
-                          {/* Watch Amzon */}
+                          {/* Watch Amazon */}
                         </Dialog.Title>
                         <div
                           onClick={closeModal1}
                           className="w-[50px] h-[50px] rounded-[50%] bg-light-grey hover:bg-white absolute top-[-4%] right-[-2%] cursor-pointer flex items-center justify-center"
                         >
-                          <span className="w-full h-[4px]  bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
-                          <span className="w-full h-[4px]  bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
+                          <span className="w-full h-[4px] bg-black rotate-45 translate-y-[0px] translate-x-[14px] inline-block"></span>
+                          <span className="w-full h-[4px] bg-black rotate-[-45deg] translate-y-[0px] translate-x-[-11px] inline-block"></span>
                         </div>
-                        <div className="mt-2 ">
+                        <div className="mt-2">
                           <iframe
                             width="100%"
                             height="415"
@@ -122,14 +121,14 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
+              <h2 className="font-Jakarta text-white text-xsm font-medium">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="font-Jakarta text-white text-xsm font-medium">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="font-Jakarta text-white text-xsm font-medium">
                 #americanseries
               </h2>
             </div>
@@ -342,7 +341,7 @@ const ShowCase6 = () => {
           </div>
           <div className="grid_item8 relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
-              className=" w-full h-full  object-cover"
+              className="w-full h-full object-cover"
               src={showcase8}
               alt="showcase8"
             />
@@ -366,7 +365,7 @@ const ShowCase6 = () => {
           </div>
           <div className="grid_item9 relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
-              className=" w-full h-full  object-cover"
+              className=" w-full h-full object-cover"
               src={showcase9}
               alt="showcase9"
             />
@@ -389,7 +388,7 @@ const ShowCase6 = () => {
           </div>
           <div className="grid_item10 relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
-              className=" w-full h-full  object-cover"
+              className=" w-full h-full object-cover"
               src={showcase10}
               alt="showcase10"
             />

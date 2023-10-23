@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { Logo, Search_icon } from "./Icons";
+// import { Logo, Search_icon } from "./Icons";
 import logo from "../assets/images/png/logoo.png";
 import { Icon } from "react-icons-kit";
 import { menu } from "react-icons-kit/feather/menu";
 import { x } from "react-icons-kit/feather/x";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Header = () => {
   const [nav, setNav] = useState(true);
@@ -19,7 +19,6 @@ const Header = () => {
   }
   return (
     <>
-      {/* ============== NAVBAR ============== */}
       <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="py-4 sm:py-10">
           <div className="flex items-center justify-between">
@@ -35,7 +34,7 @@ const Header = () => {
               <span></span>
               <span></span>
             </label>
-            <input type="checkbox" id="menuIcon" hidden className="d-none" />
+            {/* <input type="checkbox" id="menuIcon" hidden className="d-none" /> */}
             <ul
               className={
                 nav
@@ -125,7 +124,6 @@ const Header = () => {
                 onClick={() => {
                   setNav(true);
                 }}
-                className=""
               >
                 <a
                   href="#"
@@ -136,7 +134,7 @@ const Header = () => {
               </li>
             </ul>
             <div
-              className="position-relative z-3 xl:hidden cross_btn z_100 "
+              className="position-relative z-3 xl:hidden cross_btn z_100"
               onClick={nav ? shownav : hidenav}
             >
               {" "}

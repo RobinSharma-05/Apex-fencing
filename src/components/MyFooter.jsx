@@ -171,8 +171,8 @@ const MyFooter = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row justify-between pb-6 sm:pb-12 md:mt-6">
           <div className="flex justify-center items-end md:mt-0 mt-7 sm:mt-14">
-            <p className="text-blck font-Jakarta font-semibold text-xm cursor-pointer leading-6">
-              Â© 2023 Apex Fencing & Railing. All rights reserved.
+            <p className="text-block font-Jakarta font-semibold text-xm cursor-pointer leading-6">
+             © 2023 Apex Fencing & Railing. All rights reserved.
             </p>
           </div>
           <div className="flex items-end justify-center gap-[70px] md:mt-0 mt-4 sm:mt-12">

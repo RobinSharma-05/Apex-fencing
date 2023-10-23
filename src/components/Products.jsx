@@ -16,8 +16,11 @@ const Products = () => {
           <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
-              <img className="w-full img_hover" src={aluminum_railing} />
-
+              <img
+                className="w-full img_hover"
+                src={aluminum_railing}
+                alt="aluminum_railing"
+              />
               <div className="content-details">
                 <h4 className="absolute bottom-[22px] text-2xl font-Jakarta font-medium text-white max-w-[186px] text-center flex mx-auto transform_20">
                   Aluminum Railing
@@ -31,6 +34,7 @@ const Products = () => {
               <img
                 className="w-full img_hover"
                 src={horizontal_cable_railing}
+                alt="horizontal_railing"
               />
 
               <div className="content-details_3">
@@ -43,8 +47,11 @@ const Products = () => {
           <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
-              <img className="w-full img_hover" src={vertical_cable_railing} />
-
+              <img
+                className="w-full img_hover"
+                src={vertical_cable_railing}
+                alt="vertical_cable_railing"
+              />
               <div className="content-details_3">
                 <h4 className="max-w-[160px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
                   Vertical Cable Railing
@@ -55,7 +62,11 @@ const Products = () => {
           <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
-              <img className="w-full img_hover" src={aluminum_fencing} />
+              <img
+                className="w-full img_hover"
+                src={aluminum_fencing}
+                alt="aluminum_fencing"
+              />
 
               <div className="content-details_3">
                 <h4 className="max-w-[150px] text-center flex mx-auto absolute bottom-[22px] text-2xl  font-Jakarta font-medium text-white transform_40">
@@ -67,7 +78,7 @@ const Products = () => {
           <div className="relative max-w-[290px]">
             <div className="content">
               <div className="content-overlay"></div>
-              <img className="w-full img_hover" src={lighting} alt="" />
+              <img className="w-full img_hover" src={lighting} alt="lighting" />
               <div className="content-details_2">
                 <h4 className="max-w-[150px] text-center flex mx-auto absolute bottom-[58px] text-2xl  font-Jakarta font-medium text-white">
                   Lighting

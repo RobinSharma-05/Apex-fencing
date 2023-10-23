@@ -17,13 +17,13 @@ const YourFence = () => {
                 Ready for the Next Step?
               </h3>
             </div>
-            <div className="flex justify-center text-center xl:text-start xl:justify-start mt-5">
-              <p className="font-Jakarta text-white max-w-[470px] font-normal text-md mb-5">
+            {/* <div className="flex justify-center text-center xl:text-start xl:justify-start mt-5"> */}
+              <p className="font-Jakarta text-white max-w-[470px] font-normal text-md my-5">
                 Find a nearby dealer to kickstart your outdoor transformation.
               </p>
-            </div>
+            {/* </div> */}
             <div className="flex justify-center xl:justify-start">
-              <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black  text-white border border-solid hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
+              <div className="mt-5 hover:bg-light-brown duration-500 hover:text-black text-white border border-solid hover:border-[#eee4db] border-[#eee4db] py-4 px-[33px] inline-block">
                 <button className="font-Jakarta font-medium text-xs leading-[140%] mb-1">
                   Locate a Dealer
                 </button>

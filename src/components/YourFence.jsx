@@ -2,7 +2,7 @@ import React from "react";
 import garden from "../assets/images/webp/garden.webp";
 const YourFence = () => {
   return (
-    <div className="bg-[#5a623d]  relative">
+    <div className="bg-[#5a623d] relative">
       <img
         className="right-0 h-full w-[55%] absolute hidden xl:block object-cover"
         src={garden}
@@ -31,10 +31,10 @@ const YourFence = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between">
-        <div className=" bg-[#5a623d] order-2 lg:order-1"></div>
+      {/* <div className="flex flex-col lg:flex-row justify-between">
+        <div className="bg-[#5a623d] order-2 lg:order-1"></div>
         <div className="order-1 lg:order-2"></div>
-      </div>
+      </div> */}
     </div>
   );
 };

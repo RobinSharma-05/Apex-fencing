@@ -1,9 +1,9 @@
-import React, { useRef, useState } from "react";
+// import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import React from "react";
 // Import Swiper styles
 import "swiper/css";
-import { Real_left_arrow, Real_right_arrow } from "./Icons";
+// import { Real_left_arrow, Real_right_arrow } from "./Icons";
 import emily from "../assets/images/webp/Real_Emily.webp";
 import Jack from "../assets/images/webp/Real_Jack.webp";
 import Jack2 from "../assets/images/webp/Real_Jack2.webp";
@@ -18,8 +18,8 @@ const RealSwiper = () => {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-6 ">
+          <div className="md:ps-12 border-orange border-e-[1px]">
+            <div className="real_card max-w-[515px] h-[100%] w-100 py-5 px-6">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "The quality of these railings{" "}
                 <span className="text-orange">exceeded </span>all my
@@ -43,8 +43,8 @@ const RealSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
+          <div className="md:ps-12 border-orange border-e-[1px]">
+            <div className="real_card max-w-[515px] h-[100%] w-100 py-5 px-5">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "Working with these products has
                 <span className="text-orange"> elevated </span> the quality of
@@ -69,8 +69,8 @@ const RealSwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
-            <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
+          <div className="md:ps-12 border-orange border-e-[1px]">
+            <div className="real_card max-w-[515px] h-[100%] w-100 py-5 px-5">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[459px]">
                 "Outstanding products matched by
                 <span className="text-orange"> excellent </span>customer
@@ -82,7 +82,7 @@ const RealSwiper = () => {
                   <img className="w-full" src={Jack2} alt="Jack2" />
                 </div>
                 <div>
-                  <h2 className="font-Jakarta text-orange text-2xl font-bold ">
+                  <h2 className="font-Jakarta text-orange text-2xl font-bold">
                     Robert
                   </h2>
                   <p className="font-Jakarta text-black font-normal text-md">
@@ -94,7 +94,7 @@ const RealSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
+          <div className="md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-6 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "The quality of these railings{" "}
@@ -119,7 +119,7 @@ const RealSwiper = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
+          <div className="md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[469px]">
                 "Working with these products has
@@ -145,7 +145,7 @@ const RealSwiper = () => {
         </SwiperSlide>
         <SwiperSlide>
           {" "}
-          <div className="ps- md:ps-12 border-orange border-e-[1px]">
+          <div className="md:ps-12 border-orange border-e-[1px]">
             <div className="real_card max-w-[515px] h-[100%]  w-100 py-5 px-5 ">
               <p className="font-Jakarta text-3xl font-normal text-black leading-[150%] max-w-[459px]">
                 "Outstanding products matched by
