@@ -10,7 +10,7 @@ import Jack2 from "../assets/images/webp/Real_Jack2.webp";
 // import "./styles.css";
 const RealSwiper = () => {
   return (
-    <div>
+    <>
       <Swiper
         spaceBetween={50}
         slidesPerView={2.5}
@@ -28,7 +28,7 @@ const RealSwiper = () => {
               </p>
               <div className="flex items-center gap-8 pt-[86px]">
                 <div>
-                  <img className="w-full" src={emily} alt="emily" />
+                  <img className="w-[100%]" src={emily} alt="emily" />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">
@@ -53,7 +53,7 @@ const RealSwiper = () => {
               </p>
               <div className="flex items-center gap-8 pt-[86px]">
                 <div>
-                  <img className="w-full" src={Jack} alt="Jack" />
+                  <img className="w-[100%]" src={Jack} alt="Jack" />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">
@@ -79,7 +79,7 @@ const RealSwiper = () => {
               </p>
               <div className="flex items-center gap-8 pt-[86px]">
                 <div>
-                  <img className="w-full" src={Jack2} alt="Jack2" />
+                  <img className="w-[100%]" src={Jack2} alt="Jack2" />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">
@@ -170,7 +170,7 @@ const RealSwiper = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-    </div>
+    </>
   );
 };
 

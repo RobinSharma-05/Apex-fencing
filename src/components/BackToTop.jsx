@@ -23,17 +23,15 @@ const BackToTop = () => {
 
   return (
     <>
-      <section>
-        <div className="back_to_top z-[10]">
-          <div
-            className="backTop "
-            onClick={backTop}
-            style={{ height: 90, display: showScroll ? "flex" : "none" }}
-          >
-            ^
-          </div>
+      <div className="back_to_top z-[10]">
+        <div
+          className="backTop"
+          onClick={backTop}
+          style={{ height: 90, display: showScroll ? "flex" : "none" }}
+        >
+          ^
         </div>
-      </section>
+      </div>
     </>
   );
 };

@@ -16,33 +16,59 @@ const MyFooter = () => {
       <div className="container xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0 pt-[50px] sm:pt-24">
         <div className="md:flex items-center justify-between">
           <div className="flex sm:justify-start justify-center">
-            <img className=" w-1/3 sm:w-1/4" src={logo} alt="logo" />
+            <img
+              className="height_width_logo cursor-pointer"
+              src={logo}
+              alt="logo"
+              height={60}
+              width={155}
+            />
           </div>
 
           <div className="flex justify-center">
             <div className="flex items-center gap-6 md:mt-0 mt-[30px]">
               <div className="hover:translate-y-[-8px] duration-300">
-                <a href="https://www.facebook.com/" target="blank">
+                <a
+                  href="https://www.facebook.com/"
+                  target="blank"
+                  aria-label="Learn more about our products"
+                >
                   <Facebookicon />
                 </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <a href="https://www.instagram.com/" target="blank">
+                <a
+                  href="https://www.instagram.com/"
+                  target="blank"
+                  aria-label="Learn more about our products"
+                >
                   <Instagramicon />
                 </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <a href="https://www.twitter.com/" target="blank">
+                <a
+                  href="https://www.twitter.com/"
+                  target="blank"
+                  aria-label="Learn more about our products"
+                >
                   <Patrolicon />
                 </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <a href="https://www.telegram.com/" target="blank">
+                <a
+                  href="https://www.telegram.com/"
+                  target="blank"
+                  aria-label="Learn more about our products"
+                >
                   <Tiktokicon />
                 </a>
               </div>
               <div className="hover:translate-y-[-8px] duration-300">
-                <a href="https://www.youtube.com/" target="blank">
+                <a
+                  href="https://www.youtube.com/"
+                  target="blank"
+                  aria-label="Learn more about our products"
+                >
                   <Youtubeicon />
                 </a>
               </div>
@@ -57,7 +83,7 @@ const MyFooter = () => {
                   <h4 className="font-bold text-md font-Jakarta">Products</h4>
                   <div className="mt-3 sm:mt-5">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Aluminum Railing
                       </a>
@@ -65,7 +91,7 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Cable Railing
                       </a>
@@ -73,7 +99,7 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Aluminum Fencing
                       </a>
@@ -81,14 +107,14 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         Lighting
                       </a>
                     </p>
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Accessories
                       </a>
@@ -97,10 +123,7 @@ const MyFooter = () => {
                 </div>
                 <div className="mt-7 sm:mt-12">
                   <h4 className="font-bold text-md font-Jakarta">
-                    <a href="" className="hover_line2">
-                      {" "}
-                      Where to Buy
-                    </a>
+                    Where to Buy
                   </h4>
                 </div>
               </div>
@@ -111,7 +134,7 @@ const MyFooter = () => {
                   <h4 className="font-bold text-md font-Jakarta">Resources</h4>
                   <div className="mt-3 sm:mt-5">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Dealer Portal
                       </a>
@@ -119,7 +142,7 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Designer Guide
                       </a>
@@ -127,7 +150,7 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         {" "}
                         Warranty
                       </a>
@@ -135,7 +158,7 @@ const MyFooter = () => {
                   </div>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         FAQs
                       </a>
                     </p>
@@ -143,13 +166,13 @@ const MyFooter = () => {
                 </div>
                 <div className="mt-8 sm:mt-12">
                   <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                    <a href="" className="hover_line2">
+                    <a href="#" className="hover_line2">
                       Careers
                     </a>
                   </p>
                   <div className="mt-2">
                     <p className="text-black font-Jakarta font-normal text-xm cursor-pointer leading-6">
-                      <a href="" className="hover_line2">
+                      <a href="#" className="hover_line2">
                         Press Releases
                       </a>
                     </p>
@@ -176,8 +199,20 @@ const MyFooter = () => {
             </p>
           </div>
           <div className="flex items-end justify-center gap-[70px] md:mt-0 mt-4 sm:mt-12">
-            <img className="h-[48px]" src={nadra} alt="nadra" />
-            <img className="h-[75px]" src={superior} alt="superiso" />
+            <img
+              className="superio_img h-[48px] object-contain"
+              src={nadra}
+              alt="nadra"
+              height={48}
+              width={129}
+            />
+            <img
+              className="superio_img h-[75px] object-contain"
+              src={superior}
+              alt="superiso"
+              height={75}
+              width={110}
+            />
           </div>
         </div>
       </div>

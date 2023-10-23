@@ -40,23 +40,27 @@ const ShowCase6 = () => {
   return (
     <>
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3  lg:pb-[114px]  sm:px-5 xl:px-0 py-[50px] md:pt-[100px] lg:pt-[145px]">
-        <h2 className="font-Jakarta text-[40px] md:text-5xl text-light-blue font-medium pb-5">
+        <h2 className="font-Jakarta text-[32px] md:text-5xl text-light-blue font-medium pb-5 sm:leading-[130%] text-center sm:text-start">
           Showcase Your Space
         </h2>
 
-        <p className="font-Jakarta text-lg font-normal text-black max-w-[861px]">
+        <p className="font-Jakarta md:text-lg font-normal text-black max-w-[861px] leading-[30px] text-center sm:text-start">
           Discover how homeowners and builders alike are transforming spaces
           with our products. Get inspired for your next project.
         </p>
-        <div className="d_grid w-100  pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
-          <div className="grid_item1 relative overflow-hidden grid_hover h-[500px] md:h-full  ">
+        <div className="d_grid w-100 justify-center  pt-[20px] sm:pt-[40px] md:pt-[88px]  md:pb-[65px]">
+          <div className="grid_item1 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full  ">
             <img
-              className=" w-full h-full  object-cover"
+              className="w-full h-full object-cover"
               src={showcase1}
               alt="showcase1"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
@@ -122,98 +126,114 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3  items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px]  items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item2 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item2 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase2}
               alt="showcase2"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item3 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item3 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase3}
               alt="showcase3"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item4 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item4 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase4}
               alt="showcase4"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item5 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item5 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase5}
               alt="showcase5"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
@@ -249,7 +269,7 @@ const ShowCase6 = () => {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="w-full h-full min-h-[415px]  max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                      <Dialog.Panel className="w-full h-full min-h-[415px] max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
                         <Dialog.Title
                           as="h3"
                           className="text-lg font-medium leading-6 text-gray-900"
@@ -280,127 +300,147 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item6 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item6 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase6}
               alt="showcase6"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item7 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item7 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase7}
               alt="showcase7"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item8 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item8 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase8}
               alt="showcase8"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
 
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item9 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item9 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase9}
               alt="showcase9"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>
           </div>
-          <div className="grid_item10 relative overflow-hidden grid_hover h-[500px] md:h-full ">
+          <div className="grid_item10 max-w-[391px] sm:max-w-[600px] w-[100%] relative overflow-hidden grid_hover h-[500px] md:h-full ">
             <img
               className=" w-full h-full  object-cover"
               src={showcase10}
               alt="showcase10"
             />
             <div className="absolute right-2 top-2">
-              <a href="https://www.instagram.com/" target="blank">
+              <a
+                href="https://www.instagram.com/"
+                target="blank"
+                aria-label="Learn more about our products"
+              >
                 <Real_Instagram />
               </a>
             </div>
             <div
               onClick={openModal3}
-              className="absolute bottom-[50%] left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[80px] sm:w-[60px] lg:w-[80px] h-[80px] sm:h-[60px] lg:h-[80px] cursor-pointer"
+              className="absolute bottom-[38%] top-2/4 left-[50%] ps-2 translate-y-[-50%] translate-x-[-50%] bg-light-green hover:bg-black transition-all  rounded-[50%] flex items-center justify-center  w-[60px] sm:w-[60px] lg:w-[80px] h-[60px] sm:h-[60px] lg:h-[80px] cursor-pointer"
             >
               <Real_play_btn />
             </div>
@@ -429,7 +469,7 @@ const ShowCase6 = () => {
                       leaveFrom="opacity-100 scale-100"
                       leaveTo="opacity-0 scale-95"
                     >
-                      <Dialog.Panel className="w-full h-full min-h-[415px]  max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
+                      <Dialog.Panel className="w-full h-full min-h-[415px] max-w-[800px] transform rounded-2xl bg-black p-6 mx-auto text-center align-middle shadow-xl transition-all relative">
                         <Dialog.Title
                           as="h3"
                           className="text-lg font-medium leading-6 text-gray-900"
@@ -460,14 +500,14 @@ const ShowCase6 = () => {
                 </div>
               </Dialog>
             </Transition>
-            <div className="flex flex-wrap gap-1 lg:gap-3 items-center absolute bottom-2 lg:bottom-7 left-1 lg:left-5 w-full">
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+            <div className="flex flex-wrap max-w-[380px] gap-0 sm:gap-[5px] xl:gap-[10px] items-center absolute bottom-2 lg:bottom-7 left-4 lg:left-5 w-auto pe-3">
+              <h2 className="font-Jakarta text-white text-xm font-medium ">
                 #railing
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #horizontal cable
               </h2>
-              <h2 className="font-Jakarta text-white text-xsm font-medium ">
+              <h2 className="ps-1 sm:ps-0 font-Jakarta text-white text-xm font-medium ">
                 #americanseries
               </h2>
             </div>

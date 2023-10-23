@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { Real_left_arrow, Real_right_arrow } from "./Icons";
 import emily from "../assets/images/webp/Real_Emily.webp";
 import Jack from "../assets/images/webp/Real_Jack.webp";
-import Jack2 from "../assets/images/webp/Real_Jack2.webp";
+import jacksecond from "../assets/images/webp/Real_Jacksecond.webp";
 const Real5 = () => {
   const slider = React.useRef(null);
   var settings = {
@@ -44,7 +44,7 @@ const Real5 = () => {
     >
       <div className="xl:w-[1180px] 2xl:w-[1320px] mx-auto px-3 sm:px-5 xl:px-0">
         <div className="flex flex-col md:flex-row gap-5 justify-between items-center">
-          <h2 className="font-Jakarta text-[39px] md:text-5xl font-medium text-light-blue">
+          <h2 className="font-Jakarta text-center text-[35px] lg:text-5xl font-medium text-light-blue leading-[130%]">
             Real Experiences. Real People.
           </h2>
           <div className="flex gap-5">
@@ -78,7 +78,13 @@ const Real5 = () => {
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
-                  <img className="w-full" src={emily} alt="emily" />
+                  <img
+                    className="w-[100%]"
+                    src={emily}
+                    alt="emily"
+                    height={100}
+                    width={100}
+                  />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">
@@ -101,7 +107,13 @@ const Real5 = () => {
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
-                  <img className="w-full" src={Jack} alt="Jack" />
+                  <img
+                    className="w-[100%]"
+                    src={Jack}
+                    alt="Jack"
+                    height={100}
+                    width={100}
+                  />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">
@@ -124,7 +136,13 @@ const Real5 = () => {
               </p>
               <div className="flex items-center gap-8 pt-[25px] md:pt-[86px]">
                 <div>
-                  <img className="w-full" src={Jack2} alt="Jack2" />
+                  <img
+                    className="w-[100%]"
+                    src={jacksecond}
+                    alt="jacksecond"
+                    height={100}
+                    width={100}
+                  />
                 </div>
                 <div>
                   <h2 className="font-Jakarta text-orange text-2xl font-bold ">

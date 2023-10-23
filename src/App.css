@@ -10,18 +10,73 @@
 
 @media (max-width: 576px) {
   .content-details {
-    transform: translateX(9%) !important;
+    transform: translateX(25%) !important;
   }
   .content-details_2 {
-    transform: translateX(28%) !important;
+    transform: translateX(38%) !important;
+  }
+  .content-details_3 {
+    transform: translateX(30%) !important;
+  }
+}
+@media (max-width: 768px) {
+  .height_width_logo {
+    min-height: 50px !important;
+    width: 100px !important;
+    object-fit: contain;
+  }
+}
+@media (max-width: 768px) {
+  .superio_img {
+    min-height: 50px !important;
+    width: 100px !important;
+    object-fit: contain;
+  }
+}
+@media (min-width: 770px) and (max-width: 995px) {
+  .content-details_3 {
+    transform: translateX(25%) !important;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .content-details {
+    transform: translateX(4%) !important;
+  }
+  .content-details_3 {
+    transform: translateX(10%) !important;
+  }
+  .content-details_2 {
+    transform: translateX(25%) !important;
+  }
+}
+@media (min-width: 1300px) {
+  .content-details {
+    transform: translateX(10%) !important;
   }
   .content-details_3 {
     transform: translateX(18%) !important;
   }
+  .content-details_2 {
+    transform: translateX(30%) !important;
+  }
 }
-@media (min-width: 770px) and (max-width: 1025px) {
-  .content-details_3 {
+@media (min-width: 1100px) and (max-width: 1200px) {
+  .content-details {
     transform: translateX(5%) !important;
+  }
+  .content-details_3 {
+    transform: translateX(8%) !important;
+  }
+  .content-details_2 {
+    transform: translateX(25%) !important;
+  }
+}
+@media (min-width: 995px) and (max-width: 1025px) {
+  .content-details_3 {
+    transform: translateX(8.5%) !important;
+  }
+  .content-details_2 {
+    transform: translateX(25%) !important;
   }
 }
 .backTop {
@@ -109,17 +164,22 @@
   filter: blur(0px);
 }
 .content-details {
-  transform: translateX(10%);
+  transform: translateX(19%);
 }
 .content-details_2 {
-  transform: translateX(30%);
+  transform: translateX(34%);
 }
 .content-details_3 {
-  transform: translateX(15%);
+  transform: translateX(25%);
 }
 @media (min-width: 1024px) and (max-width: 1200px) {
   .content-details_3 {
     transform: translateX(8%);
+  }
+}
+@media (min-width: 990px) and (max-width: 1025px) {
+  .content-details {
+    transform: translateX(3%);
   }
 }
 .slider .slick-list {
@@ -159,9 +219,9 @@
   object-fit: cover;
 }
 .grid_hover img {
-  transition: all 200ms ease-in-out;
-  cursor: pointer;
+  transition: all 400ms ease-in-out;
 }
+
 .grid_hover:hover img {
   transform: scale(1.1);
 }
@@ -342,7 +402,7 @@
   color: red;
 }
 html,
-body {
+a {
   scroll-behavior: smooth;
 }
 .animation_preloader {
